@@ -1,0 +1,11 @@
+node_modules
+dist
+coverage
+*.log
+Backups/
+release/
+public/icons-backup/
+*.bak-*
+__pycache__/
+*.pyc
+.DS_Store
