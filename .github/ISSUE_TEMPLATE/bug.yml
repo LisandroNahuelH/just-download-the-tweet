@@ -1,0 +1,44 @@
+name: Bug report
+description: Something is broken — help us reproduce it.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! The more precise, the faster it gets fixed.
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: From chrome://extensions or the Chrome Web Store listing.
+      placeholder: "0.1.8"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Environment
+      placeholder: "Chrome 140 · Windows 11 · x.com home timeline"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact clicks and page URLs (home / status), media type involved.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output
+      description: Content-script and service-worker console errors (no personal data).
+      render: text
+    validations:
+      required: false
