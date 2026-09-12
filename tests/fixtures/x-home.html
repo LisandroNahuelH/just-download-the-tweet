@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <main>
+      <article data-testid="tweet">
+        <div data-testid="User-Name">
+          <a href="/alice"><span>Alice</span></a>
+          <a href="/alice/status/1234567890123456789"><time datetime="2026-04-10T10:00:00.000Z">10m</time></a>
+        </div>
+        <div data-testid="tweetText">A post with two images.</div>
+        <div data-testid="tweetPhoto">
+          <img src="https://pbs.twimg.com/media/Alpha?format=jpg&name=small" alt="image 1" />
+          <img src="https://pbs.twimg.com/media/Bravo?format=png&name=small" alt="image 2" />
+        </div>
+        <div role="group" aria-label="Post actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Repost">Repost</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </article>
+
+      <article data-testid="tweet">
+        <div data-testid="User-Name">
+          <a href="/bob"><span>Bob</span></a>
+          <a href="/bob/status/9876543210987654321"><time datetime="2026-04-10T09:30:00.000Z">40m</time></a>
+        </div>
+        <div data-testid="tweetText">A quoted tweet should not steal the parent media.</div>
+        <article data-testid="tweet">
+          <div data-testid="tweetText">Nested quote media</div>
+          <img src="https://pbs.twimg.com/media/Nested?format=jpg&name=small" alt="nested image" />
+        </article>
+        <div role="group" aria-label="Post actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

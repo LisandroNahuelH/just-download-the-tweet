@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <main>
+      <div role="article">
+        <div data-testid="User-Name">
+          <a href="/dave"><span>Dave</span></a>
+          <a href="/dave/status/4444444444444444444"><time datetime="2026-04-10T11:00:00.000Z">1m</time></a>
+        </div>
+        <div data-testid="tweetText">Embedded video post.</div>
+        <div role="group" aria-label="Post actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Repost">Repost</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </div>
+      <script>
+        window.__INITIAL_STATE__ = {
+          "data": {
+            "threaded_conversation_with_injections_v2": {
+              "instructions": [
+                {
+                  "entries": [
+                    {
+                      "content": {
+                        "itemContent": {
+                          "tweet_results": {
+                            "result": {
+                              "rest_id": "4444444444444444444",
+                              "core": {
+                                "user_results": {
+                                  "result": {
+                                    "legacy": {
+                                      "screen_name": "dave"
+                                    }
+                                  }
+                                }
+                              },
+                              "legacy": {
+                                "id_str": "4444444444444444444",
+                                "full_text": "Embedded video post.",
+                                "extended_entities": {
+                                  "media": [
+                                    {
+                                      "type": "video",
+                                      "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/VideoThumb?format=jpg&name=small",
+                                      "video_info": {
+                                        "variants": [
+                                          {
+                                            "content_type": "application/x-mpegURL",
+                                            "url": "https://video.twimg.com/ext_tw_video/4444444444444444444/pu/pl/playlist.m3u8?tag&#x3D;19"
+                                          },
+                                          {
+                                            "content_type": "video/mp4",
+                                            "bitrate": 256000,
+                                            "url": "https://video.twimg.com/ext_tw_video/4444444444444444444/pu/vid/avc1/320x180/low.mp4?tag&#x3D;19"
+                                          },
+                                          {
+                                            "content_type": "video/mp4",
+                                            "bitrate": 832000,
+                                            "url": "https://video.twimg.com/ext_tw_video/4444444444444444444/pu/vid/avc1/1280x720/high.mp4?tag&#x3D;19"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        };
+      </script>
+    </main>
+  </body>
+</html>

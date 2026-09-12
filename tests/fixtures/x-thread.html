@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <main>
+      <article data-testid="tweet">
+        <div data-testid="User-Name">
+          <a href="/alice"><span>Alice</span></a>
+          <a href="/alice/status/1111111111111111111"><time datetime="2026-04-10T10:00:00.000Z">10m</time></a>
+        </div>
+        <div data-testid="tweetText">Thread root with media.</div>
+        <div data-testid="tweetPhoto">
+          <img src="https://pbs.twimg.com/media/ThreadRoot?format=jpg&name=small" alt="root image" />
+        </div>
+        <div role="group" aria-label="Root actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Repost">Repost</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </article>
+
+      <article data-testid="tweet">
+        <div data-testid="User-Name">
+          <a href="/bob"><span>Bob</span></a>
+          <a href="/bob/status/2222222222222222222"><time datetime="2026-04-10T10:05:00.000Z">5m</time></a>
+        </div>
+        <div data-testid="tweetText">Reply without media, but with a quoted sub-post.</div>
+        <article data-testid="tweet">
+          <div data-testid="User-Name">
+            <a href="/quoted"><span>Quoted</span></a>
+            <a href="/quoted/status/9999999999999999999"><time datetime="2026-04-10T09:59:00.000Z">11m</time></a>
+          </div>
+          <div data-testid="tweetPhoto">
+            <img src="https://pbs.twimg.com/media/QuotedNested?format=png&name=small" alt="quoted media" />
+          </div>
+          <div role="group" aria-label="Quoted actions">
+            <button aria-label="Reply">Reply</button>
+            <button aria-label="Like">Like</button>
+            <button aria-label="Share">Share</button>
+          </div>
+        </article>
+        <div role="group" aria-label="Reply actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Repost">Repost</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </article>
+
+      <article data-testid="tweet">
+        <div data-testid="User-Name">
+          <a href="/carol"><span>Carol</span></a>
+          <a href="/carol/status/3333333333333333333"><time datetime="2026-04-10T10:07:00.000Z">3m</time></a>
+        </div>
+        <div data-testid="tweetText">Another reply without media.</div>
+        <div role="group" aria-label="Second reply actions">
+          <button aria-label="Reply">Reply</button>
+          <button aria-label="Repost">Repost</button>
+          <button aria-label="Like">Like</button>
+          <button aria-label="Share">Share</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
