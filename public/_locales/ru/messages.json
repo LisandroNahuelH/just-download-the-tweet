@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Просто Скачайте Твит Premium11: Сохраняйте Видео, GIF И Фото С X"
+  },
+  "extensionDescription": {
+    "message": "Добавляет элементы управления загрузкой к медиапостам в X."
+  },
+  "postMediaTitle": {
+    "message": "Медиа поста"
+  },
+  "downloadAll": {
+    "message": "Скачать всё"
+  },
+  "downloadZip": {
+    "message": "Скачать ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Получение медиа..."
+  },
+  "downloadComplete": {
+    "message": "Загрузка завершена."
+  },
+  "zipReady": {
+    "message": "ZIP готов."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Не удалось определить медиа поста."
+  },
+  "selectOneOfMedias": {
+    "message": "Выберите один из $COUNT$ медиафайлов.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Параметры загрузки поста"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Скачать медиа поста"
+  },
+  "itemVideo": {
+    "message": "Видео $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF-изображение $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Медиа $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Ответ на загрузку не получен."
+  },
+  "downloadFailed": {
+    "message": "Загрузка не удалась."
+  },
+  "unknownDownloadError": {
+    "message": "Неизвестная ошибка загрузки"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome не вернул идентификатор загрузки."
+  },
+  "offscreenNoResponse": {
+    "message": "Документ offscreen не вернул ответ."
+  },
+  "unsupportedRequestType": {
+    "message": "Неподдерживаемый тип запроса: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Некорректная полезная нагрузка запроса для $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Неизвестная ошибка ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ при получении медиа",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Не удалось получить медиа для ZIP-архива."
+  },
+  "unknownFetchFailure": {
+    "message": "Неизвестная ошибка получения"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ элемент(ов) не удалось включить в ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

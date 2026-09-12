@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Preuzmite Tweet Izravno Premium11: Spremi Video, GIF I Slike S X-A"
+  },
+  "extensionDescription": {
+    "message": "Dodaje kontrole za preuzimanje objavama s medijima na X-u."
+  },
+  "postMediaTitle": {
+    "message": "Mediji objave"
+  },
+  "downloadAll": {
+    "message": "Preuzmi sve"
+  },
+  "downloadZip": {
+    "message": "Preuzmi ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Razrješavanje medija..."
+  },
+  "downloadComplete": {
+    "message": "Preuzimanje dovršeno."
+  },
+  "zipReady": {
+    "message": "ZIP je spreman."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Nije moguće razriješiti medije objave."
+  },
+  "selectOneOfMedias": {
+    "message": "Odaberite jednu od $COUNT$ stavki medija.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Mogućnosti preuzimanja objave"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Preuzmi medije objave"
+  },
+  "itemVideo": {
+    "message": "Videozapis $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animirani GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Medij $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nije vraćen odgovor na preuzimanje."
+  },
+  "downloadFailed": {
+    "message": "Preuzimanje nije uspjelo."
+  },
+  "unknownDownloadError": {
+    "message": "Nepoznata greška preuzimanja"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome nije vratio ID preuzimanja."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen dokument nije vratio odgovor."
+  },
+  "unsupportedRequestType": {
+    "message": "Nepodržana vrsta zahtjeva: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Neispravan sadržaj zahtjeva za $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Nepoznata ZIP greška"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ pri dohvaćanju medija",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nije moguće dohvatiti medije za ZIP arhivu."
+  },
+  "unknownFetchFailure": {
+    "message": "Nepoznati neuspjeh dohvaćanja"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ stavki nije bilo moguće uključiti u ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

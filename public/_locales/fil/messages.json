@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "I-Download Ang Tweet Nang Direkta Premium11: Save Video, GIF At Larawan"
+  },
+  "extensionDescription": {
+    "message": "Nagdadagdag ng mga kontrol sa pag-download sa mga post na may media sa X."
+  },
+  "postMediaTitle": {
+    "message": "Media ng post"
+  },
+  "downloadAll": {
+    "message": "I-download lahat"
+  },
+  "downloadZip": {
+    "message": "I-download ang ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Nilulutas ang media..."
+  },
+  "downloadComplete": {
+    "message": "Kumpleto na ang pag-download."
+  },
+  "zipReady": {
+    "message": "Handa na ang ZIP."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Hindi malutas ang media ng post."
+  },
+  "selectOneOfMedias": {
+    "message": "Pumili ng isa sa $COUNT$ item ng media.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Mga opsyon sa pag-download ng post"
+  },
+  "downloadPostMediaTitle": {
+    "message": "I-download ang media ng post"
+  },
+  "itemVideo": {
+    "message": "Bidyo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animated GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Media file $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Walang tugon sa pag-download na ibinalik."
+  },
+  "downloadFailed": {
+    "message": "Nabigo ang pag-download."
+  },
+  "unknownDownloadError": {
+    "message": "Hindi kilalang error sa pag-download"
+  },
+  "chromeNoDownloadId": {
+    "message": "Hindi nagbalik ang Chrome ng download id."
+  },
+  "offscreenNoResponse": {
+    "message": "Walang tugon na ibinalik ng offscreen document."
+  },
+  "unsupportedRequestType": {
+    "message": "Hindi suportadong uri ng kahilingan: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Maling payload ng kahilingan para sa $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Hindi kilalang error sa ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ habang kinukuha ang media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Walang media na nakuha para sa ZIP archive."
+  },
+  "unknownFetchFailure": {
+    "message": "Hindi kilalang pagkabigo sa pagkuha"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ item ang hindi maisama sa ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

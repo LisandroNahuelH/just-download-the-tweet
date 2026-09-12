@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Pobierz Tweeta Bezpośrednio Premium11: Zapisz Wideo, GIF I Obrazy Z X"
+  },
+  "extensionDescription": {
+    "message": "Dodaje kontrolki pobierania do postów z multimediami na X."
+  },
+  "postMediaTitle": {
+    "message": "Multimedia posta"
+  },
+  "downloadAll": {
+    "message": "Pobierz wszystko"
+  },
+  "downloadZip": {
+    "message": "Pobierz ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Wyszukiwanie multimediów..."
+  },
+  "downloadComplete": {
+    "message": "Pobieranie zakończone."
+  },
+  "zipReady": {
+    "message": "ZIP gotowy."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Nie udało się ustalić multimediów posta."
+  },
+  "selectOneOfMedias": {
+    "message": "Wybierz jeden z $COUNT$ elementów multimedialnych.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opcje pobierania posta"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Pobierz multimedia posta"
+  },
+  "itemVideo": {
+    "message": "Wideo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animowany GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Multimedia $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nie zwrócono odpowiedzi pobierania."
+  },
+  "downloadFailed": {
+    "message": "Pobieranie nie powiodło się."
+  },
+  "unknownDownloadError": {
+    "message": "Nieznany błąd pobierania"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome nie zwrócił identyfikatora pobierania."
+  },
+  "offscreenNoResponse": {
+    "message": "Dokument offscreen nie zwrócił odpowiedzi."
+  },
+  "unsupportedRequestType": {
+    "message": "Nieobsługiwany typ żądania: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Nieprawidłowa treść żądania dla $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Nieznany błąd ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ podczas pobierania multimediów",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nie udało się pobrać multimediów do archiwum ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Nieznany błąd pobierania"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "Nie udało się uwzględnić $COUNT$ element(ów) w archiwum ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

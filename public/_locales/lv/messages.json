@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Lejupielādējiet Tvītu Tieši Premium11: Saglabā Video, GIF Un Attēlus No X"
+  },
+  "extensionDescription": {
+    "message": "Pievieno lejupielādes vadīklas multivides ierakstiem X platformā."
+  },
+  "postMediaTitle": {
+    "message": "Ieraksta multivide"
+  },
+  "downloadAll": {
+    "message": "Lejupielādēt visu"
+  },
+  "downloadZip": {
+    "message": "Lejupielādēt ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Nosaka multividi..."
+  },
+  "downloadComplete": {
+    "message": "Lejupielāde pabeigta."
+  },
+  "zipReady": {
+    "message": "ZIP gatavs."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Neizdevās noteikt ieraksta multividi."
+  },
+  "selectOneOfMedias": {
+    "message": "Izvēlieties vienu no $COUNT$ multivides vienumiem.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Ieraksta lejupielādes opcijas"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Lejupielādēt ieraksta multividi"
+  },
+  "itemVideo": {
+    "message": "Videoieraksts $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animēts GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Multivide $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Netika saņemta lejupielādes atbilde."
+  },
+  "downloadFailed": {
+    "message": "Lejupielāde neizdevās."
+  },
+  "unknownDownloadError": {
+    "message": "Nezināma lejupielādes kļūda"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome neatgrieza lejupielādes id."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen dokuments neatgrieza atbildi."
+  },
+  "unsupportedRequestType": {
+    "message": "Neatbalstīts pieprasījuma veids: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Nederīga pieprasījuma slodze $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Nezināma ZIP kļūda"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ iegūstot multividi",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP arhīvam neizdevās iegūt nevienu multividi."
+  },
+  "unknownFetchFailure": {
+    "message": "Nezināma iegūšanas kļūme"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ vienumu (-i) neizdevās iekļaut ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Descarcă Postarea Direct Premium11: Salvează Video, GIF Și Imagini De Pe X"
+  },
+  "extensionDescription": {
+    "message": "Adaugă controale de descărcare la postările cu media pe X."
+  },
+  "postMediaTitle": {
+    "message": "Media postării"
+  },
+  "downloadAll": {
+    "message": "Descarcă tot"
+  },
+  "downloadZip": {
+    "message": "Descarcă ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Se rezolvă media..."
+  },
+  "downloadComplete": {
+    "message": "Descărcare finalizată."
+  },
+  "zipReady": {
+    "message": "ZIP pregătit."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Nu s-a putut rezolva media postării."
+  },
+  "selectOneOfMedias": {
+    "message": "Selectează unul dintre cele $COUNT$ elemente media.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opțiuni de descărcare pentru postare"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Descarcă media postării"
+  },
+  "itemVideo": {
+    "message": "Fișier video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animat $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Fișier media $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nu s-a returnat niciun răspuns de descărcare."
+  },
+  "downloadFailed": {
+    "message": "Descărcarea a eșuat."
+  },
+  "unknownDownloadError": {
+    "message": "Eroare de descărcare necunoscută"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome nu a returnat un ID de descărcare."
+  },
+  "offscreenNoResponse": {
+    "message": "Documentul offscreen nu a returnat niciun răspuns."
+  },
+  "unsupportedRequestType": {
+    "message": "Tip de solicitare neacceptat: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Payload de solicitare incorect pentru $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Eroare ZIP necunoscută"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ la preluarea media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nu s-a putut prelua nicio media pentru arhiva ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Eroare de preluare necunoscută"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ element(e) nu au putut fi incluse în ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Solo Descarga El Tuit Premium11: Guarda Video, GIF E Imágenes De X"
+  },
+  "extensionDescription": {
+    "message": "Agrega controles de descarga a las publicaciones con media en X."
+  },
+  "postMediaTitle": {
+    "message": "Media del post"
+  },
+  "downloadAll": {
+    "message": "Descargar todas"
+  },
+  "downloadZip": {
+    "message": "Descargar ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Resolviendo media..."
+  },
+  "downloadComplete": {
+    "message": "Descarga completada."
+  },
+  "zipReady": {
+    "message": "ZIP preparado."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "No se pudo resolver la media del post."
+  },
+  "selectOneOfMedias": {
+    "message": "Selecciona una de $COUNT$ medias.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opciones de descarga del post"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Descargar media del post"
+  },
+  "itemVideo": {
+    "message": "Vídeo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animado $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Multimedia $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "No se recibió respuesta de descarga."
+  },
+  "downloadFailed": {
+    "message": "La descarga falló."
+  },
+  "unknownDownloadError": {
+    "message": "Error de descarga desconocido"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome no devolvió un id de descarga."
+  },
+  "offscreenNoResponse": {
+    "message": "El documento offscreen no devolvió respuesta."
+  },
+  "unsupportedRequestType": {
+    "message": "Tipo de solicitud no compatible: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Carga de solicitud malformada para $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Error de ZIP desconocido"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ al obtener la media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "No se pudo obtener ninguna media para el archivo ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Error de obtención desconocido"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elemento(s) no se pudieron incluir en el ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

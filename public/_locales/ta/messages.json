@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ட்வீட்டை நேரடியாகப் பதிவிறக்கவும் Premium11: X இலிருந்து வீடியோ, GIF"
+  },
+  "extensionDescription": {
+    "message": "X-ல் மீடியா இடுகைகளில் பதிவிறக்கக் கட்டுப்பாடுகளைச் சேர்க்கிறது."
+  },
+  "postMediaTitle": {
+    "message": "இடுகை மீடியா"
+  },
+  "downloadAll": {
+    "message": "அனைத்தையும் பதிவிறக்கு"
+  },
+  "downloadZip": {
+    "message": "ZIP பதிவிறக்கு"
+  },
+  "resolvingMedia": {
+    "message": "மீடியாவைக் கண்டறிகிறது..."
+  },
+  "downloadComplete": {
+    "message": "பதிவிறக்கம் முடிந்தது."
+  },
+  "zipReady": {
+    "message": "ZIP தயார்."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "இடுகை மீடியாவைக் கண்டறிய முடியவில்லை."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ மீடியா உருப்படிகளில் ஒன்றைத் தேர்ந்தெடுக்கவும்.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "இடுகை பதிவிறக்க விருப்பங்கள்"
+  },
+  "downloadPostMediaTitle": {
+    "message": "இடுகை மீடியாவைப் பதிவிறக்கு"
+  },
+  "itemVideo": {
+    "message": "வீடியோ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "அனிமேஷன் GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "மீடியா $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "பதிவிறக்க பதில் எதுவும் வரவில்லை."
+  },
+  "downloadFailed": {
+    "message": "பதிவிறக்கம் தோல்வியடைந்தது."
+  },
+  "unknownDownloadError": {
+    "message": "அறியப்படாத பதிவிறக்கப் பிழை"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome பதிவிறக்க ID-ஐத் திரும்பப் பெறவில்லை."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen ஆவணத்திலிருந்து பதில் எதுவும் வரவில்லை."
+  },
+  "unsupportedRequestType": {
+    "message": "ஆதரிக்கப்படாத கோரிக்கை வகை: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$-க்கான தவறான கோரிக்கை பேலோடு.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "அறியப்படாத ZIP பிழை"
+  },
+  "httpFetchError": {
+    "message": "மீடியாவைப் பெறும்போது HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP காப்பகத்திற்கு மீடியா எதுவும் பெற முடியவில்லை."
+  },
+  "unknownFetchFailure": {
+    "message": "அறியப்படாத பெறுதல் தோல்வி"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ உருப்படி(கள்) ZIP-ல் சேர்க்க முடியவில்லை.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

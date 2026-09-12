@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "توییت را مستقیم دانلود کنید Premium11: ذخیره ویدیو، GIF و تصویر از X"
+  },
+  "extensionDescription": {
+    "message": "کنترل‌های دانلود را به پست‌های دارای رسانه در X اضافه می‌کند."
+  },
+  "postMediaTitle": {
+    "message": "رسانه پست"
+  },
+  "downloadAll": {
+    "message": "دانلود همه"
+  },
+  "downloadZip": {
+    "message": "دانلود ZIP"
+  },
+  "resolvingMedia": {
+    "message": "در حال یافتن رسانه..."
+  },
+  "downloadComplete": {
+    "message": "دانلود کامل شد."
+  },
+  "zipReady": {
+    "message": "ZIP آماده است."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "رسانه پست یافت نشد."
+  },
+  "selectOneOfMedias": {
+    "message": "یکی از $COUNT$ مورد رسانه را انتخاب کنید.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "گزینه‌های دانلود پست"
+  },
+  "downloadPostMediaTitle": {
+    "message": "دانلود رسانه پست"
+  },
+  "itemVideo": {
+    "message": "ویدیو $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "تصویر GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "رسانه $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "پاسخی برای دانلود دریافت نشد."
+  },
+  "downloadFailed": {
+    "message": "دانلود ناموفق بود."
+  },
+  "unknownDownloadError": {
+    "message": "خطای ناشناخته در دانلود"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome شناسه دانلود برنگرداند."
+  },
+  "offscreenNoResponse": {
+    "message": "سند offscreen پاسخی برنگرداند."
+  },
+  "unsupportedRequestType": {
+    "message": "نوع درخواست پشتیبانی‌نشده: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "بار درخواست نادرست برای $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "خطای ناشناخته ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ هنگام دریافت رسانه",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "هیچ رسانه‌ای برای بایگانی ZIP دریافت نشد."
+  },
+  "unknownFetchFailure": {
+    "message": "خطای ناشناخته در دریافت"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ مورد در ZIP گنجانده نشد.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

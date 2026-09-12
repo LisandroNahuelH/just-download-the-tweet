@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Baixa El Tuit Directament Premium11: Desa Vídeo, GIF I Imatges D'X"
+  },
+  "extensionDescription": {
+    "message": "Afegeix controls de descàrrega a les publicacions amb contingut multimèdia a X."
+  },
+  "postMediaTitle": {
+    "message": "Contingut multimèdia de la publicació"
+  },
+  "downloadAll": {
+    "message": "Descarrega-ho tot"
+  },
+  "downloadZip": {
+    "message": "Descarrega ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Resolent el contingut multimèdia..."
+  },
+  "downloadComplete": {
+    "message": "Descàrrega completada."
+  },
+  "zipReady": {
+    "message": "ZIP llest."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "No s'ha pogut resoldre el contingut multimèdia de la publicació."
+  },
+  "selectOneOfMedias": {
+    "message": "Selecciona un dels $COUNT$ elements multimèdia.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opcions de descàrrega de la publicació"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Descarrega el contingut multimèdia de la publicació"
+  },
+  "itemVideo": {
+    "message": "Vídeo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animat $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Contingut $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "No s'ha rebut cap resposta de descàrrega."
+  },
+  "downloadFailed": {
+    "message": "La descàrrega ha fallat."
+  },
+  "unknownDownloadError": {
+    "message": "Error de descàrrega desconegut"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome no ha retornat cap id de descàrrega."
+  },
+  "offscreenNoResponse": {
+    "message": "El document offscreen no ha retornat cap resposta."
+  },
+  "unsupportedRequestType": {
+    "message": "Tipus de sol·licitud no compatible: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Càrrega de sol·licitud malformada per a $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Error de ZIP desconegut"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ en obtenir el contingut multimèdia",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "No s'ha pogut obtenir cap contingut per a l'arxiu ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Error d'obtenció desconegut"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ element(s) no s'han pogut incloure al ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

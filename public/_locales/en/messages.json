@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Just Download The Tweet Premium11: Save Video, GIF & Images From X"
+  },
+  "extensionDescription": {
+    "message": "Adds download controls to media posts on X."
+  },
+  "postMediaTitle": {
+    "message": "Post media"
+  },
+  "downloadAll": {
+    "message": "Download all"
+  },
+  "downloadZip": {
+    "message": "Download ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Resolving media..."
+  },
+  "downloadComplete": {
+    "message": "Download complete."
+  },
+  "zipReady": {
+    "message": "ZIP ready."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Could not resolve the post media."
+  },
+  "selectOneOfMedias": {
+    "message": "Select one of $COUNT$ media items.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Post download options"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Download post media"
+  },
+  "itemVideo": {
+    "message": "Video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Media $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "No download response was returned."
+  },
+  "downloadFailed": {
+    "message": "Download failed."
+  },
+  "unknownDownloadError": {
+    "message": "Unknown download error"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome did not return a download id."
+  },
+  "offscreenNoResponse": {
+    "message": "No response was returned by the offscreen document."
+  },
+  "unsupportedRequestType": {
+    "message": "Unsupported request type: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Malformed request payload for $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Unknown ZIP error"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ while fetching media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "No media could be fetched for the ZIP archive."
+  },
+  "unknownFetchFailure": {
+    "message": "Unknown fetch failure"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ item(s) could not be included in the ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

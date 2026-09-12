@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Scarica Il Post Direttamente Premium11: Salva Video, GIF E Immagini Da X"
+  },
+  "extensionDescription": {
+    "message": "Aggiunge controlli di download ai post con media su X."
+  },
+  "postMediaTitle": {
+    "message": "Media del post"
+  },
+  "downloadAll": {
+    "message": "Scarica tutto"
+  },
+  "downloadZip": {
+    "message": "Scarica ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Risoluzione media..."
+  },
+  "downloadComplete": {
+    "message": "Download completato."
+  },
+  "zipReady": {
+    "message": "ZIP pronto."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Impossibile risolvere i media del post."
+  },
+  "selectOneOfMedias": {
+    "message": "Seleziona uno dei $COUNT$ elementi multimediali.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opzioni di download del post"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Scarica media del post"
+  },
+  "itemVideo": {
+    "message": "File video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animato $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "File multimediale $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nessuna risposta di download ricevuta."
+  },
+  "downloadFailed": {
+    "message": "Download non riuscito."
+  },
+  "unknownDownloadError": {
+    "message": "Errore di download sconosciuto"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome non ha restituito un id di download."
+  },
+  "offscreenNoResponse": {
+    "message": "Nessuna risposta dal documento offscreen."
+  },
+  "unsupportedRequestType": {
+    "message": "Tipo di richiesta non supportato: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Payload della richiesta non valido per $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Errore ZIP sconosciuto"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ durante il recupero dei media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nessun media è stato recuperato per l'archivio ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Errore di recupero sconosciuto"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elemento/i non sono stati inclusi nello ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Download Tweetet Direkte Premium11: Gem Video, GIF Og Billeder Fra X"
+  },
+  "extensionDescription": {
+    "message": "Tilføjer downloadkontroller til medieopslag på X."
+  },
+  "postMediaTitle": {
+    "message": "Opslagsmedier"
+  },
+  "downloadAll": {
+    "message": "Download alle"
+  },
+  "downloadZip": {
+    "message": "Download som ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Finder medier..."
+  },
+  "downloadComplete": {
+    "message": "Download fuldført."
+  },
+  "zipReady": {
+    "message": "ZIP klar."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Kunne ikke finde opslagets medier."
+  },
+  "selectOneOfMedias": {
+    "message": "Vælg en af $COUNT$ medieelementer.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Downloadindstillinger for opslag"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Download opslagsmedier"
+  },
+  "itemVideo": {
+    "message": "Video nr. $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animeret GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Medie $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Der blev ikke returneret noget download-svar."
+  },
+  "downloadFailed": {
+    "message": "Download mislykkedes."
+  },
+  "unknownDownloadError": {
+    "message": "Ukendt downloadfejl"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome returnerede ikke et download-id."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen-dokumentet returnerede ikke noget svar."
+  },
+  "unsupportedRequestType": {
+    "message": "Ikke-understøttet anmodningstype: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Fejlformateret anmodningsdata for $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Ukendt ZIP-fejl"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ under hentning af medier",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Der kunne ikke hentes medier til ZIP-arkivet."
+  },
+  "unknownFetchFailure": {
+    "message": "Ukendt hentningsfejl"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ element(er) kunne ikke inkluderes i ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

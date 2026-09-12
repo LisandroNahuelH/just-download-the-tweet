@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Ladda Ner Tweeten Direkt Premium11: Spara Video, GIF Och Bilder Från X"
+  },
+  "extensionDescription": {
+    "message": "Lägger till nedladdningskontroller på medieinlägg på X."
+  },
+  "postMediaTitle": {
+    "message": "Inläggsmedia"
+  },
+  "downloadAll": {
+    "message": "Ladda ner alla"
+  },
+  "downloadZip": {
+    "message": "Ladda ner ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Hämtar media..."
+  },
+  "downloadComplete": {
+    "message": "Nedladdning slutförd."
+  },
+  "zipReady": {
+    "message": "ZIP är redo."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Kunde inte hämta inläggets media."
+  },
+  "selectOneOfMedias": {
+    "message": "Välj ett av $COUNT$ medieobjekt.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Nedladdningsalternativ för inlägg"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Ladda ner inläggsmedia"
+  },
+  "itemVideo": {
+    "message": "Videofil $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animerad GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mediafil $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Inget nedladdningssvar mottogs."
+  },
+  "downloadFailed": {
+    "message": "Nedladdningen misslyckades."
+  },
+  "unknownDownloadError": {
+    "message": "Okänt nedladdningsfel"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome returnerade inget nedladdnings-id."
+  },
+  "offscreenNoResponse": {
+    "message": "Inget svar returnerades från offscreen-dokumentet."
+  },
+  "unsupportedRequestType": {
+    "message": "Begärantyp stöds inte: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Felaktig begärandepayload för $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Okänt ZIP-fel"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ vid hämtning av media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Ingen media kunde hämtas för ZIP-arkivet."
+  },
+  "unknownFetchFailure": {
+    "message": "Okänt hämtningsfel"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ objekt kunde inte inkluderas i ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

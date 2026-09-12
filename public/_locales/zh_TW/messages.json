@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "直接下載推文 Premium11: 儲存 X 影片、GIF 與圖片"
+  },
+  "extensionDescription": {
+    "message": "為 X 上的媒體貼文新增下載控制項。"
+  },
+  "postMediaTitle": {
+    "message": "貼文媒體"
+  },
+  "downloadAll": {
+    "message": "全部下載"
+  },
+  "downloadZip": {
+    "message": "下載 ZIP"
+  },
+  "resolvingMedia": {
+    "message": "正在解析媒體..."
+  },
+  "downloadComplete": {
+    "message": "下載完成。"
+  },
+  "zipReady": {
+    "message": "ZIP 已就緒。"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "無法解析貼文媒體。"
+  },
+  "selectOneOfMedias": {
+    "message": "請選擇 $COUNT$ 個媒體項目之一。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "貼文下載選項"
+  },
+  "downloadPostMediaTitle": {
+    "message": "下載貼文媒體"
+  },
+  "itemVideo": {
+    "message": "影片 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF動圖 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "媒體 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "未收到下載回應。"
+  },
+  "downloadFailed": {
+    "message": "下載失敗。"
+  },
+  "unknownDownloadError": {
+    "message": "未知下載錯誤"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome 未回傳下載 id。"
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen 文件未回傳回應。"
+  },
+  "unsupportedRequestType": {
+    "message": "不支援的請求類型：$TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ 的請求承載格式錯誤。",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "未知 ZIP 錯誤"
+  },
+  "httpFetchError": {
+    "message": "擷取媒體時發生 HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "無法為 ZIP 封存擷取任何媒體。"
+  },
+  "unknownFetchFailure": {
+    "message": "未知擷取失敗"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "有 $COUNT$ 個項目無法包含在 ZIP 中。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

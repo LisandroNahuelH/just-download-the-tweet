@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Tweet Einfach Herunterladen Premium11: Video, GIF & Bilder Von X Speichern"
+  },
+  "extensionDescription": {
+    "message": "Fügt Download-Steuerelemente zu Medienbeiträgen auf X hinzu."
+  },
+  "postMediaTitle": {
+    "message": "Beitragsmedien"
+  },
+  "downloadAll": {
+    "message": "Alle herunterladen"
+  },
+  "downloadZip": {
+    "message": "ZIP herunterladen"
+  },
+  "resolvingMedia": {
+    "message": "Medien werden ermittelt..."
+  },
+  "downloadComplete": {
+    "message": "Download abgeschlossen."
+  },
+  "zipReady": {
+    "message": "ZIP bereit."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Die Medien des Beitrags konnten nicht ermittelt werden."
+  },
+  "selectOneOfMedias": {
+    "message": "Wählen Sie eines von $COUNT$ Medienelementen.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Download-Optionen für Beiträge"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Beitragsmedien herunterladen"
+  },
+  "itemVideo": {
+    "message": "Video Nr. $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animiertes GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Medium $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Es wurde keine Download-Antwort zurückgegeben."
+  },
+  "downloadFailed": {
+    "message": "Download fehlgeschlagen."
+  },
+  "unknownDownloadError": {
+    "message": "Unbekannter Download-Fehler"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome hat keine Download-ID zurückgegeben."
+  },
+  "offscreenNoResponse": {
+    "message": "Das Offscreen-Dokument hat keine Antwort zurückgegeben."
+  },
+  "unsupportedRequestType": {
+    "message": "Nicht unterstützter Anforderungstyp: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Fehlerhafte Anforderungsdaten für $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Unbekannter ZIP-Fehler"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ beim Abrufen von Medien",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Für das ZIP-Archiv konnten keine Medien abgerufen werden."
+  },
+  "unknownFetchFailure": {
+    "message": "Unbekannter Abruffehler"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ Element(e) konnten nicht in die ZIP aufgenommen werden.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

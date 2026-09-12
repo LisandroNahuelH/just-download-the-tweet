@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Muat Turun Tweet Secara Terus Premium11: Simpan Video, GIF & Imej Dari X"
+  },
+  "extensionDescription": {
+    "message": "Menambah kawalan muat turun pada siaran media di X."
+  },
+  "postMediaTitle": {
+    "message": "Media siaran"
+  },
+  "downloadAll": {
+    "message": "Muat turun semua"
+  },
+  "downloadZip": {
+    "message": "Muat turun ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Menyelesaikan media..."
+  },
+  "downloadComplete": {
+    "message": "Muat turun selesai."
+  },
+  "zipReady": {
+    "message": "ZIP sedia."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Tidak dapat menyelesaikan media siaran."
+  },
+  "selectOneOfMedias": {
+    "message": "Pilih satu daripada $COUNT$ item media.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Pilihan muat turun siaran"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Muat turun media siaran"
+  },
+  "itemVideo": {
+    "message": "Fail video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animasi $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Fail media $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Tiada respons muat turun dikembalikan."
+  },
+  "downloadFailed": {
+    "message": "Muat turun gagal."
+  },
+  "unknownDownloadError": {
+    "message": "Ralat muat turun tidak diketahui"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome tidak mengembalikan id muat turun."
+  },
+  "offscreenNoResponse": {
+    "message": "Dokumen offscreen tidak mengembalikan respons."
+  },
+  "unsupportedRequestType": {
+    "message": "Jenis permintaan tidak disokong: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Muatan permintaan tidak sah untuk $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Ralat ZIP tidak diketahui"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ semasa mengambil media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Tiada media boleh diambil untuk arkib ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Kegagalan pengambilan tidak diketahui"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ item tidak dapat dimasukkan ke dalam ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Last Ned Tweeten Direkte Premium11: Lagre Video, GIF Og Bilder Fra X"
+  },
+  "extensionDescription": {
+    "message": "Legger til nedlastingskontroller på medieinnlegg på X."
+  },
+  "postMediaTitle": {
+    "message": "Medieinnlegg"
+  },
+  "downloadAll": {
+    "message": "Last ned alt"
+  },
+  "downloadZip": {
+    "message": "Last ned ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Henter media..."
+  },
+  "downloadComplete": {
+    "message": "Nedlasting fullført."
+  },
+  "zipReady": {
+    "message": "ZIP er klar."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Kunne ikke hente mediene i innlegget."
+  },
+  "selectOneOfMedias": {
+    "message": "Velg ett av $COUNT$ medieelementer.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Nedlastingsalternativer for innlegg"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Last ned medieinnlegg"
+  },
+  "itemVideo": {
+    "message": "Videofil $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animert GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mediefil $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Ingen nedlastingssvar ble returnert."
+  },
+  "downloadFailed": {
+    "message": "Nedlasting mislyktes."
+  },
+  "unknownDownloadError": {
+    "message": "Ukjent nedlastingsfeil"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome returnerte ikke et nedlastings-ID."
+  },
+  "offscreenNoResponse": {
+    "message": "Ingen respons ble returnert fra offscreen-dokumentet."
+  },
+  "unsupportedRequestType": {
+    "message": "Ustøttet forespørselstype: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Ugyldig forespørselspayload for $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Ukjent ZIP-feil"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ ved henting av media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Ingen media kunne hentes for ZIP-arkivet."
+  },
+  "unknownFetchFailure": {
+    "message": "Ukjent hentefeil"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ element(er) kunne ikke inkluderes i ZIP-filen.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

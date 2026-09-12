@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Baixe O Post Diretamente Premium11: Salve Vídeo, GIF E Imagens Do X"
+  },
+  "extensionDescription": {
+    "message": "Adiciona controles de download a posts com mídia no X."
+  },
+  "postMediaTitle": {
+    "message": "Mídia do post"
+  },
+  "downloadAll": {
+    "message": "Baixar tudo"
+  },
+  "downloadZip": {
+    "message": "Baixar ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Resolvendo mídia..."
+  },
+  "downloadComplete": {
+    "message": "Download concluído."
+  },
+  "zipReady": {
+    "message": "ZIP pronto."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Não foi possível resolver a mídia do post."
+  },
+  "selectOneOfMedias": {
+    "message": "Selecione uma das $COUNT$ mídias.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opções de download do post"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Baixar mídia do post"
+  },
+  "itemVideo": {
+    "message": "Vídeo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animado $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mídia $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nenhuma resposta de download foi retornada."
+  },
+  "downloadFailed": {
+    "message": "Falha no download."
+  },
+  "unknownDownloadError": {
+    "message": "Erro de download desconhecido"
+  },
+  "chromeNoDownloadId": {
+    "message": "O Chrome não retornou um ID de download."
+  },
+  "offscreenNoResponse": {
+    "message": "O documento offscreen não retornou resposta."
+  },
+  "unsupportedRequestType": {
+    "message": "Tipo de solicitação não suportado: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Payload de solicitação malformado para $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Erro de ZIP desconhecido"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ ao buscar mídia",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nenhuma mídia pôde ser obtida para o arquivo ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Falha de busca desconhecida"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ item(ns) não pôde(ram) ser incluído(s) no ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

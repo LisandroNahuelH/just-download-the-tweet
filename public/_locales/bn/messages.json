@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "সরাসরি টুইট ডাউনলোড করুন Premium11: X থেকে ভিডিও, GIF, ছবি"
+  },
+  "extensionDescription": {
+    "message": "X-এ মিডিয়া পোস্টে ডাউনলোড নিয়ন্ত্রণ যোগ করে।"
+  },
+  "postMediaTitle": {
+    "message": "পোস্ট মিডিয়া"
+  },
+  "downloadAll": {
+    "message": "সব ডাউনলোড করুন"
+  },
+  "downloadZip": {
+    "message": "ZIP ডাউনলোড করুন"
+  },
+  "resolvingMedia": {
+    "message": "মিডিয়া খুঁজছি..."
+  },
+  "downloadComplete": {
+    "message": "ডাউনলোড সম্পন্ন।"
+  },
+  "zipReady": {
+    "message": "ZIP প্রস্তুত।"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "পোস্টের মিডিয়া খুঁজে পাওয়া যায়নি।"
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$টি মিডিয়া আইটেমের একটি বেছে নিন।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "পোস্ট ডাউনলোডের বিকল্প"
+  },
+  "downloadPostMediaTitle": {
+    "message": "পোস্ট মিডিয়া ডাউনলোড করুন"
+  },
+  "itemVideo": {
+    "message": "ভিডিও $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "অ্যানিমেটেড GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "মিডিয়া $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "কোনো ডাউনলোড প্রতিক্রিয়া ফেরত আসেনি।"
+  },
+  "downloadFailed": {
+    "message": "ডাউনলোড ব্যর্থ হয়েছে।"
+  },
+  "unknownDownloadError": {
+    "message": "অজানা ডাউনলোড ত্রুটি"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome কোনো ডাউনলোড আইডি ফেরত দেয়নি।"
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen ডকুমেন্ট কোনো প্রতিক্রিয়া ফেরত দেয়নি।"
+  },
+  "unsupportedRequestType": {
+    "message": "অসমর্থিত অনুরোধের ধরন: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$-এর জন্য ভুল ফরম্যাটের অনুরোধ পে‌লোড।",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "অজানা ZIP ত্রুটি"
+  },
+  "httpFetchError": {
+    "message": "মিডিয়া আনতে গিয়ে HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP আর্কাইভের জন্য কোনো মিডিয়া আনা যায়নি।"
+  },
+  "unknownFetchFailure": {
+    "message": "অজানা ফেচ ব্যর্থতা"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$টি আইটেম ZIP-এ অন্তর্ভুক্ত করা যায়নি।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

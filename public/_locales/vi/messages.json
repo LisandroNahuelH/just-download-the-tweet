@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Tải Tweet Trực Tiếp Premium11: Lưu Video, GIF & Ảnh Từ X"
+  },
+  "extensionDescription": {
+    "message": "Thêm điều khiển tải xuống cho bài đăng có media trên X."
+  },
+  "postMediaTitle": {
+    "message": "Media của bài đăng"
+  },
+  "downloadAll": {
+    "message": "Tải xuống tất cả"
+  },
+  "downloadZip": {
+    "message": "Tải xuống ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Đang xác định media..."
+  },
+  "downloadComplete": {
+    "message": "Tải xuống hoàn tất."
+  },
+  "zipReady": {
+    "message": "ZIP đã sẵn sàng."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Không thể xác định media của bài đăng."
+  },
+  "selectOneOfMedias": {
+    "message": "Chọn một trong $COUNT$ mục media.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Tùy chọn tải xuống bài đăng"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Tải xuống media của bài đăng"
+  },
+  "itemVideo": {
+    "message": "Tệp video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Ảnh GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Tệp media $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Không nhận được phản hồi tải xuống."
+  },
+  "downloadFailed": {
+    "message": "Tải xuống thất bại."
+  },
+  "unknownDownloadError": {
+    "message": "Lỗi tải xuống không xác định"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome không trả về id tải xuống."
+  },
+  "offscreenNoResponse": {
+    "message": "Tài liệu offscreen không trả về phản hồi."
+  },
+  "unsupportedRequestType": {
+    "message": "Loại yêu cầu không được hỗ trợ: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Tải trọng yêu cầu không hợp lệ cho $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Lỗi ZIP không xác định"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ khi tải media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Không thể tải media nào cho tệp ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Lỗi tải dữ liệu không xác định"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "Không thể đưa $COUNT$ mục vào ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

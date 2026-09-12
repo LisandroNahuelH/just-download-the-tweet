@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Laadi Säuts Alla Otse Premium11: Salvesta Video, GIF Ja Pildid X-St"
+  },
+  "extensionDescription": {
+    "message": "Lisab meedia sisaldavatele postitustele X-is allalaadimise juhtelemendid."
+  },
+  "postMediaTitle": {
+    "message": "Postituse meedia"
+  },
+  "downloadAll": {
+    "message": "Laadi kõik alla"
+  },
+  "downloadZip": {
+    "message": "Laadi ZIP alla"
+  },
+  "resolvingMedia": {
+    "message": "Meedia lahendamine..."
+  },
+  "downloadComplete": {
+    "message": "Allalaadimine lõpetatud."
+  },
+  "zipReady": {
+    "message": "ZIP on valmis."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Postituse meediat ei õnnestunud lahendada."
+  },
+  "selectOneOfMedias": {
+    "message": "Vali üks $COUNT$ meediaüksusest.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Postituse allalaadimise valikud"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Laadi postituse meedia alla"
+  },
+  "itemVideo": {
+    "message": "Video nr $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animeeritud GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Meedia $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Allalaadimise vastust ei saadud."
+  },
+  "downloadFailed": {
+    "message": "Allalaadimine ebaõnnestus."
+  },
+  "unknownDownloadError": {
+    "message": "Tundmatu allalaadimise viga"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ei tagastanud allalaadimise ID-d."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen-dokument ei tagastanud vastust."
+  },
+  "unsupportedRequestType": {
+    "message": "Toetamata päringu tüüp: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Vigane päringu andmestik $ACTION$ jaoks.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Tundmatu ZIP-i viga"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ meedia laadimisel",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP-arhiivi jaoks ei õnnestunud meediat laadida."
+  },
+  "unknownFetchFailure": {
+    "message": "Tundmatu laadimise viga"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ üksust ei õnnestunud ZIP-i lisada.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

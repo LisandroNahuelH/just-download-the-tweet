@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ትዊትቱን ቀጥታ ያውርዱ Premium11: ቪዲዮ፣ GIF እና ምስሎች ከ X"
+  },
+  "extensionDescription": {
+    "message": "በX ላይ የሚድያ ልጥፎች የማውረድ መቆጣጠሪያዎችን ይጨምራል።"
+  },
+  "postMediaTitle": {
+    "message": "የልጥፍ ሚድያ"
+  },
+  "downloadAll": {
+    "message": "ሁሉንም አውርድ"
+  },
+  "downloadZip": {
+    "message": "ZIP አውርድ"
+  },
+  "resolvingMedia": {
+    "message": "ሚድያ በመፈለግ ላይ..."
+  },
+  "downloadComplete": {
+    "message": "ማውረድ ተጠናቀቀ።"
+  },
+  "zipReady": {
+    "message": "ZIP ዝግጁ ነው።"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "የልጥፍ ሚድያ ማግኘት አልተቻለም።"
+  },
+  "selectOneOfMedias": {
+    "message": "ከ$COUNT$ የሚድያ ንጥሎች አንዱን ይምረጡ።",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "የልጥፍ ማውረድ አማራጮች"
+  },
+  "downloadPostMediaTitle": {
+    "message": "የልጥፍ ሚድያ አውርድ"
+  },
+  "itemVideo": {
+    "message": "ቪዲዮ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "ተንቀሳቃሽ GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "ሚድያ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "የማውረድ መልስ አልተመለሰም።"
+  },
+  "downloadFailed": {
+    "message": "ማውረድ አልተሳካም።"
+  },
+  "unknownDownloadError": {
+    "message": "ያልታወቀ የማውረድ ስህተት"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome የማውረድ መለያ አልመለሰም።"
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen ሰነድ መልስ አልመለሰም።"
+  },
+  "unsupportedRequestType": {
+    "message": "የማይደገፍ የጥያቄ አይነት፦ $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "ለ$ACTION$ የተበላሸ የጥያቄ ጭነት።",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "ያልታወቀ የZIP ስህተት"
+  },
+  "httpFetchError": {
+    "message": "ሚድያ በማምጣት ላይ HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ለZIP ማህደር ምንም ሚድያ ሊገኝ አልቻለም።"
+  },
+  "unknownFetchFailure": {
+    "message": "ያልታወቀ የማምጣት አይነት"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ ንጥል(ዎች) በZIP ውስጥ ሊካተቱ አልተቻሉም።",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

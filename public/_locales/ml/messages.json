@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ട്വീറ്റ് നേരിട്ട് ഡൗൺലോഡ് ചെയ്യുക Premium11: X-ൽ നിന്ന് വീഡിയോ, GIF"
+  },
+  "extensionDescription": {
+    "message": "X-ലെ മീഡിയാ പോസ്റ്റുകളിൽ ഡൗൺലോഡ് നിയന്ത്രണങ്ങൾ ചേർക്കുന്നു."
+  },
+  "postMediaTitle": {
+    "message": "പോസ്റ്റ് മീഡിയ"
+  },
+  "downloadAll": {
+    "message": "എല്ലാം ഡൗൺലോഡ് ചെയ്യുക"
+  },
+  "downloadZip": {
+    "message": "ZIP ഡൗൺലോഡ് ചെയ്യുക"
+  },
+  "resolvingMedia": {
+    "message": "മീഡിയ തീരുമാനിക്കുന്നു..."
+  },
+  "downloadComplete": {
+    "message": "ഡൗൺലോഡ് പൂർത്തിയായി."
+  },
+  "zipReady": {
+    "message": "ZIP തയ്യാറാണ്."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "പോസ്റ്റ് മീഡിയ തീരുമാനിക്കാൻ കഴിഞ്ഞില്ല."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ മീഡിയ ഇനങ്ങളിൽ ഒന്ന് തിരഞ്ഞെടുക്കുക.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "പോസ്റ്റ് ഡൗൺലോഡ് ഓപ്ഷനുകൾ"
+  },
+  "downloadPostMediaTitle": {
+    "message": "പോസ്റ്റ് മീഡിയ ഡൗൺലോഡ് ചെയ്യുക"
+  },
+  "itemVideo": {
+    "message": "വീഡിയോ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "ആനിമേറ്റഡ് GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "മീഡിയ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "ഡൗൺലോഡ് പ്രതികരണം ലഭിച്ചില്ല."
+  },
+  "downloadFailed": {
+    "message": "ഡൗൺലോഡ് പരാജയപ്പെട്ടു."
+  },
+  "unknownDownloadError": {
+    "message": "അജ്ഞാത ഡൗൺലോഡ് പിശക്"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ഒരു download id തിരികെ നൽകിയില്ല."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen ഡോക്യുമെന്റ് പ്രതികരണം തിരികെ നൽകിയില്ല."
+  },
+  "unsupportedRequestType": {
+    "message": "പിന്തുണയ്ക്കാത്ത അഭ്യർത്ഥന തരം: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ എന്നതിനുള്ള തെറ്റായ അഭ്യർത്ഥന payload.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "അജ്ഞാത ZIP പിശക്"
+  },
+  "httpFetchError": {
+    "message": "മീഡിയ വരുത്തുമ്പോൾ HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP ആർക്കൈവിനായി മീഡിയ വരുത്താൻ കഴിഞ്ഞില്ല."
+  },
+  "unknownFetchFailure": {
+    "message": "അജ്ഞാത വരുത്തൽ പരാജയം"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ ഇനം(ങ്ങൾ) ZIP-ൽ ഉൾപ്പെടുത്താൻ കഴിഞ്ഞില്ല.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

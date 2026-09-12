@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ツイートをそのままダウンロード Premium11: Xの動画・GIF・画像を保存"
+  },
+  "extensionDescription": {
+    "message": "Xのメディア投稿にダウンロード操作を追加します。"
+  },
+  "postMediaTitle": {
+    "message": "投稿メディア"
+  },
+  "downloadAll": {
+    "message": "すべてダウンロード"
+  },
+  "downloadZip": {
+    "message": "ZIPをダウンロード"
+  },
+  "resolvingMedia": {
+    "message": "メディアを解決中..."
+  },
+  "downloadComplete": {
+    "message": "ダウンロードが完了しました。"
+  },
+  "zipReady": {
+    "message": "ZIPの準備ができました。"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "投稿メディアを解決できませんでした。"
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$件のメディアから1つ選択してください。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "投稿のダウンロードオプション"
+  },
+  "downloadPostMediaTitle": {
+    "message": "投稿メディアをダウンロード"
+  },
+  "itemVideo": {
+    "message": "動画 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF画像 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "メディア $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "ダウンロードの応答がありませんでした。"
+  },
+  "downloadFailed": {
+    "message": "ダウンロードに失敗しました。"
+  },
+  "unknownDownloadError": {
+    "message": "不明なダウンロードエラー"
+  },
+  "chromeNoDownloadId": {
+    "message": "ChromeがダウンロードIDを返しませんでした。"
+  },
+  "offscreenNoResponse": {
+    "message": "offscreenドキュメントから応答がありませんでした。"
+  },
+  "unsupportedRequestType": {
+    "message": "サポートされていないリクエストタイプ: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$のリクエストペイロードが不正です。",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "不明なZIPエラー"
+  },
+  "httpFetchError": {
+    "message": "メディア取得中にHTTP $STATUS$が発生しました",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIPアーカイブ用のメディアを取得できませんでした。"
+  },
+  "unknownFetchFailure": {
+    "message": "不明な取得エラー"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$件のアイテムをZIPに含めることができませんでした。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

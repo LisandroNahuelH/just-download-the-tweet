@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Descarregue O Post Diretamente Premium11: Guarde Vídeo, GIF E Imagens Do X"
+  },
+  "extensionDescription": {
+    "message": "Adiciona controlos de transferência a publicações com multimédia no X."
+  },
+  "postMediaTitle": {
+    "message": "Multimédia da publicação"
+  },
+  "downloadAll": {
+    "message": "Transferir tudo"
+  },
+  "downloadZip": {
+    "message": "Transferir ZIP"
+  },
+  "resolvingMedia": {
+    "message": "A resolver multimédia..."
+  },
+  "downloadComplete": {
+    "message": "Transferência concluída."
+  },
+  "zipReady": {
+    "message": "ZIP pronto."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Não foi possível obter a multimédia da publicação."
+  },
+  "selectOneOfMedias": {
+    "message": "Selecione uma das $COUNT$ multimédias.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Opções de transferência da publicação"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Transferir multimédia da publicação"
+  },
+  "itemVideo": {
+    "message": "Vídeo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF animado $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Multimédia $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Não foi devolvida qualquer resposta de transferência."
+  },
+  "downloadFailed": {
+    "message": "A transferência falhou."
+  },
+  "unknownDownloadError": {
+    "message": "Erro de transferência desconhecido"
+  },
+  "chromeNoDownloadId": {
+    "message": "O Chrome não devolveu um ID de transferência."
+  },
+  "offscreenNoResponse": {
+    "message": "O documento offscreen não devolveu qualquer resposta."
+  },
+  "unsupportedRequestType": {
+    "message": "Tipo de pedido não suportado: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Carga útil do pedido inválida para $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Erro de ZIP desconhecido"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ ao obter multimédia",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Não foi possível obter multimédia para o ficheiro ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Falha de obtenção desconhecida"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elemento(s) não pôde(ram) ser incluído(s) no ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

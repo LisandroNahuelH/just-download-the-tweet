@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Κατεβάστε Το Tweet Απευθείας Premium11: Αποθήκευση Video, GIF, Εικόνων"
+  },
+  "extensionDescription": {
+    "message": "Προσθέτει στοιχεία ελέγχου λήψης σε αναρτήσεις με πολυμέσα στο X."
+  },
+  "postMediaTitle": {
+    "message": "Πολυμέσα ανάρτησης"
+  },
+  "downloadAll": {
+    "message": "Λήψη όλων"
+  },
+  "downloadZip": {
+    "message": "Λήψη ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Εύρεση πολυμέσων..."
+  },
+  "downloadComplete": {
+    "message": "Η λήψη ολοκληρώθηκε."
+  },
+  "zipReady": {
+    "message": "Το ZIP είναι έτοιμο."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Δεν ήταν δυνατή η εύρεση των πολυμέσων της ανάρτησης."
+  },
+  "selectOneOfMedias": {
+    "message": "Επιλέξτε ένα από τα $COUNT$ στοιχεία πολυμέσων.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Επιλογές λήψης ανάρτησης"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Λήψη πολυμέσων ανάρτησης"
+  },
+  "itemVideo": {
+    "message": "Βίντεο $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Κινούμενο GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Πολυμέσο $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Δεν επιστράφηκε απάντηση λήψης."
+  },
+  "downloadFailed": {
+    "message": "Η λήψη απέτυχε."
+  },
+  "unknownDownloadError": {
+    "message": "Άγνωστο σφάλμα λήψης"
+  },
+  "chromeNoDownloadId": {
+    "message": "Το Chrome δεν επέστρεψε αναγνωριστικό λήψης."
+  },
+  "offscreenNoResponse": {
+    "message": "Το έγγραφο offscreen δεν επέστρεψε απάντηση."
+  },
+  "unsupportedRequestType": {
+    "message": "Μη υποστηριζόμενος τύπος αιτήματος: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Κακοσχηματισμένο φορτίο αιτήματος για $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Άγνωστο σφάλμα ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ κατά τη λήψη πολυμέσων",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Δεν ήταν δυνατή η λήψη πολυμέσων για το αρχείο ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Άγνωστη αποτυχία λήψης"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ στοιχείο(α) δεν μπόρεσαν να συμπεριληφθούν στο ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

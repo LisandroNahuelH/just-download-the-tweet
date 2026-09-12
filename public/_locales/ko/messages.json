@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "트윗을 바로 다운로드 Premium11: X에서 동영상·GIF·이미지 저장"
+  },
+  "extensionDescription": {
+    "message": "X의 미디어 게시물에 다운로드 컨트롤을 추가합니다."
+  },
+  "postMediaTitle": {
+    "message": "게시물 미디어"
+  },
+  "downloadAll": {
+    "message": "모두 다운로드"
+  },
+  "downloadZip": {
+    "message": "ZIP 다운로드"
+  },
+  "resolvingMedia": {
+    "message": "미디어 확인 중..."
+  },
+  "downloadComplete": {
+    "message": "다운로드가 완료되었습니다."
+  },
+  "zipReady": {
+    "message": "ZIP 준비 완료."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "게시물 미디어를 확인할 수 없습니다."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$개의 미디어 항목 중 하나를 선택하세요.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "게시물 다운로드 옵션"
+  },
+  "downloadPostMediaTitle": {
+    "message": "게시물 미디어 다운로드"
+  },
+  "itemVideo": {
+    "message": "동영상 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF 이미지 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "미디어 $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "다운로드 응답이 반환되지 않았습니다."
+  },
+  "downloadFailed": {
+    "message": "다운로드에 실패했습니다."
+  },
+  "unknownDownloadError": {
+    "message": "알 수 없는 다운로드 오류"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome이 다운로드 id를 반환하지 않았습니다."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen 문서에서 응답이 반환되지 않았습니다."
+  },
+  "unsupportedRequestType": {
+    "message": "지원하지 않는 요청 유형: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$에 대한 잘못된 요청 페이로드입니다.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "알 수 없는 ZIP 오류"
+  },
+  "httpFetchError": {
+    "message": "미디어를 가져오는 중 HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP 아카이브용 미디어를 가져올 수 없습니다."
+  },
+  "unknownFetchFailure": {
+    "message": "알 수 없는 가져오기 실패"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$개 항목을 ZIP에 포함할 수 없습니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Завантажте Твіт Напряму Premium11: Зберігайте Відео, GIF І Фото З X"
+  },
+  "extensionDescription": {
+    "message": "Додає елементи керування завантаженням до медіапублікацій на X."
+  },
+  "postMediaTitle": {
+    "message": "Медіа публікації"
+  },
+  "downloadAll": {
+    "message": "Завантажити все"
+  },
+  "downloadZip": {
+    "message": "Завантажити ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Визначення медіа..."
+  },
+  "downloadComplete": {
+    "message": "Завантаження завершено."
+  },
+  "zipReady": {
+    "message": "ZIP готовий."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Не вдалося визначити медіа публікації."
+  },
+  "selectOneOfMedias": {
+    "message": "Виберіть один із $COUNT$ елементів медіа.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Параметри завантаження публікації"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Завантажити медіа публікації"
+  },
+  "itemVideo": {
+    "message": "Відео $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Зображення GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Медіа $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Відповідь на завантаження не отримано."
+  },
+  "downloadFailed": {
+    "message": "Завантаження не вдалося."
+  },
+  "unknownDownloadError": {
+    "message": "Невідома помилка завантаження"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome не повернув ідентифікатор завантаження."
+  },
+  "offscreenNoResponse": {
+    "message": "Документ offscreen не повернув відповідь."
+  },
+  "unsupportedRequestType": {
+    "message": "Непідтримуваний тип запиту: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Некоректне тіло запиту для $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Невідома помилка ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ під час отримання медіа",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Не вдалося отримати медіа для ZIP-архіву."
+  },
+  "unknownFetchFailure": {
+    "message": "Невідомий збій отримання"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ елемент(ів) не вдалося додати до ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

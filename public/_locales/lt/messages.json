@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Atsisiųskite Įrašą Tiesiogiai Premium11: Išsaugokite Video, GIF, Nuotraukas"
+  },
+  "extensionDescription": {
+    "message": "Prideda atsisiuntimo valdiklius prie medijos įrašų X platformoje."
+  },
+  "postMediaTitle": {
+    "message": "Įrašo medija"
+  },
+  "downloadAll": {
+    "message": "Atsisiųsti viską"
+  },
+  "downloadZip": {
+    "message": "Atsisiųsti ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Nustatoma medija..."
+  },
+  "downloadComplete": {
+    "message": "Atsisiuntimas baigtas."
+  },
+  "zipReady": {
+    "message": "ZIP paruoštas."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Nepavyko nustatyti įrašo medijos."
+  },
+  "selectOneOfMedias": {
+    "message": "Pasirinkite vieną iš $COUNT$ medijos elementų.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Įrašo atsisiuntimo parinktys"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Atsisiųsti įrašo mediją"
+  },
+  "itemVideo": {
+    "message": "Vaizdo įrašas $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animuotas GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Medija $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nebuvo gautas atsisiuntimo atsakymas."
+  },
+  "downloadFailed": {
+    "message": "Atsisiuntimas nepavyko."
+  },
+  "unknownDownloadError": {
+    "message": "Nežinoma atsisiuntimo klaida"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome negrąžino atsisiuntimo id."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen dokumentas negrąžino atsakymo."
+  },
+  "unsupportedRequestType": {
+    "message": "Nepalaikomas užklausos tipas: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Neteisinga užklausos naudingoji apkrova $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Nežinoma ZIP klaida"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ gaunant mediją",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nepavyko gauti jokios medijos ZIP archyvui."
+  },
+  "unknownFetchFailure": {
+    "message": "Nežinomas gavimo triktis"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elementų (-ai) nepavyko įtraukti į ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

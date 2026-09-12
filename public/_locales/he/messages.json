@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "הורידו את הציוץ ישירות Premium11: שמירת וידאו, GIF ותמונות מ-X"
+  },
+  "extensionDescription": {
+    "message": "מוסיף פקדי הורדה לפוסטים עם מדיה ב-X."
+  },
+  "postMediaTitle": {
+    "message": "מדיה של הפוסט"
+  },
+  "downloadAll": {
+    "message": "הורד הכל"
+  },
+  "downloadZip": {
+    "message": "הורד ZIP"
+  },
+  "resolvingMedia": {
+    "message": "מאתר מדיה..."
+  },
+  "downloadComplete": {
+    "message": "ההורדה הושלמה."
+  },
+  "zipReady": {
+    "message": "ה-ZIP מוכן."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "לא ניתן לאתר את מדיית הפוסט."
+  },
+  "selectOneOfMedias": {
+    "message": "בחר אחד מ-$COUNT$ פריטי המדיה.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "אפשרויות הורדת הפוסט"
+  },
+  "downloadPostMediaTitle": {
+    "message": "הורד מדיה של הפוסט"
+  },
+  "itemVideo": {
+    "message": "וידאו $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "תמונת GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "מדיה $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "לא התקבלה תגובת הורדה."
+  },
+  "downloadFailed": {
+    "message": "ההורדה נכשלה."
+  },
+  "unknownDownloadError": {
+    "message": "שגיאת הורדה לא ידועה"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome לא החזיר מזהה הורדה."
+  },
+  "offscreenNoResponse": {
+    "message": "מסמך ה-offscreen לא החזיר תגובה."
+  },
+  "unsupportedRequestType": {
+    "message": "סוג בקשה לא נתמך: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "מטען בקשה פגום עבור $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "שגיאת ZIP לא ידועה"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ בעת שליפת המדיה",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "לא ניתן לשלוף מדיה עבור ארכיון ה-ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "כשל שליפה לא ידוע"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "לא ניתן לכלול $COUNT$ פריט(ים) ב-ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

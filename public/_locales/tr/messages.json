@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Tweeti Doğrudan Indirin Premium11: X'Ten Video, GIF Ve Görsel Kaydet"
+  },
+  "extensionDescription": {
+    "message": "X'teki medya gönderilerine indirme kontrolleri ekler."
+  },
+  "postMediaTitle": {
+    "message": "Gönderi medyası"
+  },
+  "downloadAll": {
+    "message": "Tümünü indir"
+  },
+  "downloadZip": {
+    "message": "ZIP indir"
+  },
+  "resolvingMedia": {
+    "message": "Medya çözümleniyor..."
+  },
+  "downloadComplete": {
+    "message": "İndirme tamamlandı."
+  },
+  "zipReady": {
+    "message": "ZIP hazır."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Gönderi medyası çözümlenemedi."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ medya öğesinden birini seçin.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Gönderi indirme seçenekleri"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Gönderi medyasını indir"
+  },
+  "itemVideo": {
+    "message": "Video dosyası $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Hareketli GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Medya $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "İndirme yanıtı alınmadı."
+  },
+  "downloadFailed": {
+    "message": "İndirme başarısız oldu."
+  },
+  "unknownDownloadError": {
+    "message": "Bilinmeyen indirme hatası"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome bir indirme kimliği döndürmedi."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen belgesinden yanıt alınmadı."
+  },
+  "unsupportedRequestType": {
+    "message": "Desteklenmeyen istek türü: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ için hatalı istek yükü.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Bilinmeyen ZIP hatası"
+  },
+  "httpFetchError": {
+    "message": "Medya alınırken HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP arşivi için medya alınamadı."
+  },
+  "unknownFetchFailure": {
+    "message": "Bilinmeyen alma hatası"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ öğe ZIP'e dahil edilemedi.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

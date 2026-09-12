@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Stáhněte Tweet Přímo Premium11: Uložte Video, GIF A Obrázky Z X"
+  },
+  "extensionDescription": {
+    "message": "Přidává ovládací prvky stahování k příspěvkům s médii na X."
+  },
+  "postMediaTitle": {
+    "message": "Média příspěvku"
+  },
+  "downloadAll": {
+    "message": "Stáhnout vše"
+  },
+  "downloadZip": {
+    "message": "Stáhnout ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Vyhledávání médií..."
+  },
+  "downloadComplete": {
+    "message": "Stahování dokončeno."
+  },
+  "zipReady": {
+    "message": "ZIP je připraven."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Média příspěvku se nepodařilo najít."
+  },
+  "selectOneOfMedias": {
+    "message": "Vyberte jednu z $COUNT$ položek médií.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Možnosti stahování příspěvku"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Stáhnout média příspěvku"
+  },
+  "itemVideo": {
+    "message": "Videosoubor $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animované GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Média $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nebyla vrácena žádná odpověď na stahování."
+  },
+  "downloadFailed": {
+    "message": "Stahování se nezdařilo."
+  },
+  "unknownDownloadError": {
+    "message": "Neznámá chyba stahování"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome nevrátil id stahování."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen dokument nevrátil žádnou odpověď."
+  },
+  "unsupportedRequestType": {
+    "message": "Nepodporovaný typ požadavku: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Poškozená datová část požadavku pro $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Neznámá chyba ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ při načítání médií",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Pro ZIP archiv nebyla načtena žádná média."
+  },
+  "unknownFetchFailure": {
+    "message": "Neznámé selhání načítání"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ položku(y) se nepodařilo zahrnout do ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

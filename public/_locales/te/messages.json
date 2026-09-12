@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ట్వీట్‌ను నేరుగా డౌన్‌లోడ్ చేయండి Premium11: X నుండి వీడియో, GIF"
+  },
+  "extensionDescription": {
+    "message": "Xలో మీడియా పోస్ట్‌లకు డౌన్‌లోడ్ నియంత్రణలను జోడిస్తుంది."
+  },
+  "postMediaTitle": {
+    "message": "పోస్ట్ మీడియా"
+  },
+  "downloadAll": {
+    "message": "అన్నీ డౌన్‌లోడ్ చేయి"
+  },
+  "downloadZip": {
+    "message": "ZIP డౌన్‌లోడ్ చేయి"
+  },
+  "resolvingMedia": {
+    "message": "మీడియాను గుర్తిస్తోంది..."
+  },
+  "downloadComplete": {
+    "message": "డౌన్‌లోడ్ పూర్తయింది."
+  },
+  "zipReady": {
+    "message": "ZIP సిద్ధంగా ఉంది."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "పోస్ట్ మీడియాను గుర్తించలేకపోయింది."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ మీడియా అంశాలలో ఒకదాన్ని ఎంచుకోండి.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "పోస్ట్ డౌన్‌లోడ్ ఎంపికలు"
+  },
+  "downloadPostMediaTitle": {
+    "message": "పోస్ట్ మీడియాను డౌన్‌లోడ్ చేయి"
+  },
+  "itemVideo": {
+    "message": "వీడియో $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "యానిమేటెడ్ GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "మీడియా $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "డౌన్‌లోడ్ ప్రతిస్పందన రాలేదు."
+  },
+  "downloadFailed": {
+    "message": "డౌన్‌లోడ్ విఫలమైంది."
+  },
+  "unknownDownloadError": {
+    "message": "అజ్ఞాత డౌన్‌లోడ్ లోపం"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome డౌన్‌లోడ్ IDని తిరిగి ఇవ్వలేదు."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen డాక్యుమెంట్ ప్రతిస్పందన ఇవ్వలేదు."
+  },
+  "unsupportedRequestType": {
+    "message": "మద్దతు లేని అభ్యర్థన రకం: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ కోసం దోషయుక్త అభ్యర్థన పేలోడ్.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "అజ్ఞాత ZIP లోపం"
+  },
+  "httpFetchError": {
+    "message": "మీడియాను పొందుతున్నప్పుడు HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP ఆర్కైవ్‌కు మీడియా ఏదీ పొందలేకపోయింది."
+  },
+  "unknownFetchFailure": {
+    "message": "అజ్ఞాత పొందే వైఫల్యం"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ అంశం(లు) ZIPలో చేర్చలేకపోయాయి.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ट्वीट सीधे डाउनलोड करें Premium11: X से वीडियो, GIF और इमेज सेव करें"
+  },
+  "extensionDescription": {
+    "message": "X पर मीडिया पोस्ट में डाउनलोड नियंत्रण जोड़ता है।"
+  },
+  "postMediaTitle": {
+    "message": "पोस्ट मीडिया"
+  },
+  "downloadAll": {
+    "message": "सभी डाउनलोड करें"
+  },
+  "downloadZip": {
+    "message": "ZIP डाउनलोड करें"
+  },
+  "resolvingMedia": {
+    "message": "मीडिया ढूँढा जा रहा है..."
+  },
+  "downloadComplete": {
+    "message": "डाउनलोड पूर्ण।"
+  },
+  "zipReady": {
+    "message": "ZIP तैयार।"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "पोस्ट मीडिया नहीं मिल सका।"
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ मीडिया आइटम में से एक चुनें।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "पोस्ट डाउनलोड विकल्प"
+  },
+  "downloadPostMediaTitle": {
+    "message": "पोस्ट मीडिया डाउनलोड करें"
+  },
+  "itemVideo": {
+    "message": "वीडियो $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "एनिमेटेड GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "मीडिया $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "डाउनलोड प्रतिक्रिया नहीं मिली।"
+  },
+  "downloadFailed": {
+    "message": "डाउनलोड विफल।"
+  },
+  "unknownDownloadError": {
+    "message": "अज्ञात डाउनलोड त्रुटि"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ने डाउनलोड ID नहीं लौटाया।"
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen दस्तावेज़ ने कोई प्रतिक्रिया नहीं लौटाई।"
+  },
+  "unsupportedRequestType": {
+    "message": "असमर्थित अनुरोध प्रकार: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ के लिए गलत अनुरोध पेलोड।",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "अज्ञात ZIP त्रुटि"
+  },
+  "httpFetchError": {
+    "message": "मीडिया लाने के दौरान HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP संग्रह के लिए कोई मीडिया नहीं मिल सका।"
+  },
+  "unknownFetchFailure": {
+    "message": "अज्ञात लाने में विफलता"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ आइटम ZIP में शामिल नहीं किए जा सके।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

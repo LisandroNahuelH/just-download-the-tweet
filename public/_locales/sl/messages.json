@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Prenesite Tvit Neposredno Premium11: Shranite Video, GIF In Slike Z X"
+  },
+  "extensionDescription": {
+    "message": "Dodaja kontrolnike za prenos medijskim objavam na X."
+  },
+  "postMediaTitle": {
+    "message": "Mediji objave"
+  },
+  "downloadAll": {
+    "message": "Prenesi vse"
+  },
+  "downloadZip": {
+    "message": "Prenesi ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Pridobivanje medijev..."
+  },
+  "downloadComplete": {
+    "message": "Prenos končan."
+  },
+  "zipReady": {
+    "message": "ZIP pripravljen."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Medijev objave ni bilo mogoče pridobiti."
+  },
+  "selectOneOfMedias": {
+    "message": "Izberite enega od $COUNT$ medijskih elementov.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Možnosti prenosa objave"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Prenesi medije objave"
+  },
+  "itemVideo": {
+    "message": "Videoposnetek $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animiran GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mediji $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Prenos ni vrnil odgovora."
+  },
+  "downloadFailed": {
+    "message": "Prenos ni uspel."
+  },
+  "unknownDownloadError": {
+    "message": "Neznana napaka pri prenosu"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ni vrnil ID-ja prenosa."
+  },
+  "offscreenNoResponse": {
+    "message": "Dokument offscreen ni vrnil odgovora."
+  },
+  "unsupportedRequestType": {
+    "message": "Nepodprta vrsta zahteve: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Napačno oblikovano breme zahteve za $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Neznana napaka ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ pri pridobivanju medijev",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Za arhiv ZIP ni bilo mogoče pridobiti medijev."
+  },
+  "unknownFetchFailure": {
+    "message": "Neznana napaka pri pridobivanju"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elementov ni bilo mogoče vključiti v ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

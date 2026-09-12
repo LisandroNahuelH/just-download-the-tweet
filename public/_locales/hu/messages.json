@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Töltse Le A Tweetet Közvetlenül Premium11: Mentés Video, GIF, Képek"
+  },
+  "extensionDescription": {
+    "message": "Letöltésvezérlőket ad a médiát tartalmazó bejegyzésekhez az X-en."
+  },
+  "postMediaTitle": {
+    "message": "Bejegyzés médiája"
+  },
+  "downloadAll": {
+    "message": "Összes letöltése"
+  },
+  "downloadZip": {
+    "message": "ZIP letöltése"
+  },
+  "resolvingMedia": {
+    "message": "Média feloldása..."
+  },
+  "downloadComplete": {
+    "message": "Letöltés kész."
+  },
+  "zipReady": {
+    "message": "A ZIP kész."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "A bejegyzés médiáját nem sikerült feloldani."
+  },
+  "selectOneOfMedias": {
+    "message": "Válasszon egyet a(z) $COUNT$ médiaelem közül.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Bejegyzés letöltési beállításai"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Bejegyzés médiájának letöltése"
+  },
+  "itemVideo": {
+    "message": "Videó $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animált GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Média $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Nem érkezett letöltési válasz."
+  },
+  "downloadFailed": {
+    "message": "A letöltés sikertelen."
+  },
+  "unknownDownloadError": {
+    "message": "Ismeretlen letöltési hiba"
+  },
+  "chromeNoDownloadId": {
+    "message": "A Chrome nem adott vissza letöltési azonosítót."
+  },
+  "offscreenNoResponse": {
+    "message": "Az offscreen dokumentum nem adott vissza választ."
+  },
+  "unsupportedRequestType": {
+    "message": "Nem támogatott kéréstípus: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Hibás kéréspayload a(z) $ACTION$ művelethez.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Ismeretlen ZIP-hiba"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ a média lekérésekor",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Nem sikerült médiát lekérni a ZIP-archívumhoz."
+  },
+  "unknownFetchFailure": {
+    "message": "Ismeretlen lekérési hiba"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ elem nem került be a ZIP-be.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

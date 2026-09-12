@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "حمّل التغريدة مباشرة Premium11: احفظ فيديو وGIF وصور من X"
+  },
+  "extensionDescription": {
+    "message": "يضيف عناصر تحكم التنزيل إلى منشورات الوسائط على X."
+  },
+  "postMediaTitle": {
+    "message": "وسائط المنشور"
+  },
+  "downloadAll": {
+    "message": "تنزيل الكل"
+  },
+  "downloadZip": {
+    "message": "تنزيل ZIP"
+  },
+  "resolvingMedia": {
+    "message": "جارٍ تحديد الوسائط..."
+  },
+  "downloadComplete": {
+    "message": "اكتمل التنزيل."
+  },
+  "zipReady": {
+    "message": "ZIP جاهز."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "تعذّر تحديد وسائط المنشور."
+  },
+  "selectOneOfMedias": {
+    "message": "اختر واحدة من $COUNT$ عناصر الوسائط.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "خيارات تنزيل المنشور"
+  },
+  "downloadPostMediaTitle": {
+    "message": "تنزيل وسائط المنشور"
+  },
+  "itemVideo": {
+    "message": "فيديو $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "صورة GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "وسائط $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "لم يتم إرجاع استجابة التنزيل."
+  },
+  "downloadFailed": {
+    "message": "فشل التنزيل."
+  },
+  "unknownDownloadError": {
+    "message": "خطأ تنزيل غير معروف"
+  },
+  "chromeNoDownloadId": {
+    "message": "لم يُرجع Chrome معرّف تنزيل."
+  },
+  "offscreenNoResponse": {
+    "message": "لم يُرجع مستند offscreen أي استجابة."
+  },
+  "unsupportedRequestType": {
+    "message": "نوع طلب غير مدعوم: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "حمولة طلب غير صالحة لـ $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "خطأ ZIP غير معروف"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ أثناء جلب الوسائط",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "لم يتم جلب أي وسائط لأرشيف ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "فشل جلب غير معروف"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "تعذّر تضمين $COUNT$ عنصرًا في ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

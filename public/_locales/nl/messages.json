@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Download De Tweet Direct Premium11: Sla Video, GIF En Beelden Van X Op"
+  },
+  "extensionDescription": {
+    "message": "Voegt downloadbesturing toe aan mediaberichten op X."
+  },
+  "postMediaTitle": {
+    "message": "Mediabestanden van bericht"
+  },
+  "downloadAll": {
+    "message": "Alles downloaden"
+  },
+  "downloadZip": {
+    "message": "ZIP downloaden"
+  },
+  "resolvingMedia": {
+    "message": "Media ophalen..."
+  },
+  "downloadComplete": {
+    "message": "Download voltooid."
+  },
+  "zipReady": {
+    "message": "ZIP gereed."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Kon de mediabestanden van het bericht niet ophalen."
+  },
+  "selectOneOfMedias": {
+    "message": "Selecteer een van de $COUNT$ media-items.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Downloadopties voor bericht"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Mediabestanden van bericht downloaden"
+  },
+  "itemVideo": {
+    "message": "Videobestand $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Geanimeerde GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mediabestand $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Er werd geen downloadrespons teruggegeven."
+  },
+  "downloadFailed": {
+    "message": "Download mislukt."
+  },
+  "unknownDownloadError": {
+    "message": "Onbekende downloadfout"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome heeft geen download-id teruggegeven."
+  },
+  "offscreenNoResponse": {
+    "message": "Het offscreen-document heeft geen respons teruggegeven."
+  },
+  "unsupportedRequestType": {
+    "message": "Niet-ondersteund aanvraagtype: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Onjuist geformatteerd aanvraagpayload voor $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Onbekende ZIP-fout"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ bij ophalen van media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Er kon geen media worden opgehaald voor het ZIP-archief."
+  },
+  "unknownFetchFailure": {
+    "message": "Onbekende ophaalfout"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ item(s) konden niet worden opgenomen in de ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

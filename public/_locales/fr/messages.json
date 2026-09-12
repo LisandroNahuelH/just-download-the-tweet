@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Téléchargez Simplement Le Post Premium11: Vidéo, GIF Et Images Sur X"
+  },
+  "extensionDescription": {
+    "message": "Ajoute des contrôles de téléchargement aux publications contenant des médias sur X."
+  },
+  "postMediaTitle": {
+    "message": "Médias de la publication"
+  },
+  "downloadAll": {
+    "message": "Tout télécharger"
+  },
+  "downloadZip": {
+    "message": "Télécharger le ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Résolution des médias..."
+  },
+  "downloadComplete": {
+    "message": "Téléchargement terminé."
+  },
+  "zipReady": {
+    "message": "ZIP prêt."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Impossible de résoudre les médias de la publication."
+  },
+  "selectOneOfMedias": {
+    "message": "Sélectionnez l'un des $COUNT$ éléments multimédias.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Options de téléchargement de la publication"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Télécharger les médias de la publication"
+  },
+  "itemVideo": {
+    "message": "Vidéo $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Image GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Média $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Aucune réponse de téléchargement n'a été renvoyée."
+  },
+  "downloadFailed": {
+    "message": "Échec du téléchargement."
+  },
+  "unknownDownloadError": {
+    "message": "Erreur de téléchargement inconnue"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome n'a pas renvoyé d'identifiant de téléchargement."
+  },
+  "offscreenNoResponse": {
+    "message": "Le document offscreen n'a renvoyé aucune réponse."
+  },
+  "unsupportedRequestType": {
+    "message": "Type de requête non pris en charge : $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Charge utile de requête mal formée pour $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Erreur ZIP inconnue"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ lors de la récupération des médias",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Aucun média n'a pu être récupéré pour l'archive ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Échec de récupération inconnu"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ élément(s) n'ont pas pu être inclus dans le ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

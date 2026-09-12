@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ಟ್ವೀಟ್ ಅನ್ನು ನೇರವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ Premium11: X ನಿಂದ ವೀಡಿಯೊ, GIF"
+  },
+  "extensionDescription": {
+    "message": "X ನಲ್ಲಿನ ಮೀಡಿಯಾ ಪೋಸ್ಟ್‌ಗಳಿಗೆ ಡೌನ್‌ಲೋಡ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ."
+  },
+  "postMediaTitle": {
+    "message": "ಪೋಸ್ಟ್ ಮೀಡಿಯಾ"
+  },
+  "downloadAll": {
+    "message": "ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "downloadZip": {
+    "message": "ZIP ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "resolvingMedia": {
+    "message": "ಮೀಡಿಯಾ ಪರಿಹರಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "downloadComplete": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ."
+  },
+  "zipReady": {
+    "message": "ZIP ಸಿದ್ಧವಾಗಿದೆ."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "ಪೋಸ್ಟ್ ಮೀಡಿಯಾವನ್ನು ಪರಿಹರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "selectOneOfMedias": {
+    "message": "$COUNT$ ಮೀಡಿಯಾ ಐಟಂಗಳಲ್ಲಿ ಒಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "ಪೋಸ್ಟ್ ಡೌನ್‌ಲೋಡ್ ಆಯ್ಕೆಗಳು"
+  },
+  "downloadPostMediaTitle": {
+    "message": "ಪೋಸ್ಟ್ ಮೀಡಿಯಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "itemVideo": {
+    "message": "ವೀಡಿಯೊ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "ಅನಿಮೇಟೆಡ್ GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "ಮೀಡಿಯಾ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "ಯಾವುದೇ ಡೌನ್‌ಲೋಡ್ ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಲಾಗಿಲ್ಲ."
+  },
+  "downloadFailed": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ವಿಫಲವಾಯಿತು."
+  },
+  "unknownDownloadError": {
+    "message": "ಅಪರಿಚಿತ ಡೌನ್‌ಲೋಡ್ ದೋಷ"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ಡೌನ್‌ಲೋಡ್ id ಅನ್ನು ಹಿಂತಿರುಗಿಸಲಿಲ್ಲ."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen ಡಾಕ್ಯುಮೆಂಟ್‌ನಿಂದ ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಲಾಗಿಲ್ಲ."
+  },
+  "unsupportedRequestType": {
+    "message": "ಬೆಂಬಲಿಸದ ವಿನಂತಿ ಪ್ರಕಾರ: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "$ACTION$ ಗಾಗಿ ಅಮಾನ್ಯ ವಿನಂತಿ ಪೇಲೋಡ್.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "ಅಪರಿಚಿತ ZIP ದೋಷ"
+  },
+  "httpFetchError": {
+    "message": "ಮೀಡಿಯಾ ಪಡೆಯುವಾಗ HTTP $STATUS$",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ZIP ಆರ್ಕೈವ್‌ಗಾಗಿ ಯಾವುದೇ ಮೀಡಿಯಾ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "unknownFetchFailure": {
+    "message": "ಅಪರಿಚಿತ ಪಡೆಯುವಿಕೆ ವೈಫಲ್ಯ"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ ಐಟಂ(ಗಳು) ZIP ನಲ್ಲಿ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

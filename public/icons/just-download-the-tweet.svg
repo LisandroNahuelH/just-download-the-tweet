@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Just Download The Tweet">
+  <defs>
+    <path id="xd-x-mark" d="M14 18h25l25 30 25-30h25L78 64l38 46H91L64 80l-27 30H12l38-46L14 18Z"/>
+    <clipPath id="xd-x-clip">
+      <use href="#xd-x-mark"/>
+    </clipPath>
+  </defs>
+  <use href="#xd-x-mark" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round"/>
+  <g clip-path="url(#xd-x-clip)">
+    <polygon points="14,18 39,18 64,48 50,64" fill="#ffa000"/>
+    <polygon points="39,18 64,48 89,18" fill="#ffb300"/>
+    <polygon points="89,18 114,18 78,64 64,48" fill="#ff8f00"/>
+    <polygon points="50,64 64,48 78,64 64,80" fill="#ffe082"/>
+    <polygon points="12,110 50,64 64,80 37,110" fill="#ff6f00"/>
+    <polygon points="64,80 78,64 116,110 91,110" fill="#e65100"/>
+    <polygon points="14,18 50,64 12,110" fill="#d84315"/>
+    <polygon points="78,64 114,18 116,110" fill="#b23c17"/>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 43v43" stroke="#fff" stroke-width="15"/>
+    <path d="M43 78l21 25 21-25" stroke="#fff" stroke-width="15"/>
+    <path d="M64 43v43" stroke="#ffaa00" stroke-width="9"/>
+    <path d="M43 78l21 25 21-25" stroke="#ffaa00" stroke-width="9"/>
+  </g>
+</svg>

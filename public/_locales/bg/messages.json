@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Свали Туита Директно Premium11: Запази Видео, GIF И Изображения От X"
+  },
+  "extensionDescription": {
+    "message": "Добавя контроли за изтегляне към медийните публикации в X."
+  },
+  "postMediaTitle": {
+    "message": "Медия на публикацията"
+  },
+  "downloadAll": {
+    "message": "Изтегли всички"
+  },
+  "downloadZip": {
+    "message": "Изтегли ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Откриване на медия..."
+  },
+  "downloadComplete": {
+    "message": "Изтеглянето завърши."
+  },
+  "zipReady": {
+    "message": "ZIP е готов."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Медията на публикацията не можа да бъде открита."
+  },
+  "selectOneOfMedias": {
+    "message": "Изберете една от $COUNT$ медийни елемента.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Опции за изтегляне на публикация"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Изтегляне на медия от публикация"
+  },
+  "itemVideo": {
+    "message": "Видео $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Анимиран GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Медия $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Не беше върнат отговор за изтегляне."
+  },
+  "downloadFailed": {
+    "message": "Изтеглянето не успя."
+  },
+  "unknownDownloadError": {
+    "message": "Непозната грешка при изтегляне"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome не върна идентификатор за изтегляне."
+  },
+  "offscreenNoResponse": {
+    "message": "offscreen документът не върна отговор."
+  },
+  "unsupportedRequestType": {
+    "message": "Неподдържан тип заявка: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Невалиден payload на заявка за $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Непозната грешка с ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ при извличане на медия",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Не беше извлечена медия за ZIP архива."
+  },
+  "unknownFetchFailure": {
+    "message": "Непозната грешка при извличане"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ елемент(а) не можаха да бъдат включени в ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

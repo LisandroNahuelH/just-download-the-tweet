@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "ดาวน์โหลดทวีตได้ทันที Premium11: บันทึกวิดีโอ GIF รูปจาก X"
+  },
+  "extensionDescription": {
+    "message": "เพิ่มตัวควบคุมการดาวน์โหลดให้กับโพสต์มีเดียบน X"
+  },
+  "postMediaTitle": {
+    "message": "มีเดียของโพสต์"
+  },
+  "downloadAll": {
+    "message": "ดาวน์โหลดทั้งหมด"
+  },
+  "downloadZip": {
+    "message": "ดาวน์โหลด ZIP"
+  },
+  "resolvingMedia": {
+    "message": "กำลังค้นหามีเดีย..."
+  },
+  "downloadComplete": {
+    "message": "ดาวน์โหลดเสร็จสมบูรณ์"
+  },
+  "zipReady": {
+    "message": "ZIP พร้อมแล้ว"
+  },
+  "couldNotResolvePostMedia": {
+    "message": "ไม่สามารถค้นหามีเดียของโพสต์ได้"
+  },
+  "selectOneOfMedias": {
+    "message": "เลือกหนึ่งใน $COUNT$ รายการมีเดีย",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "ตัวเลือกการดาวน์โหลดโพสต์"
+  },
+  "downloadPostMediaTitle": {
+    "message": "ดาวน์โหลดมีเดียของโพสต์"
+  },
+  "itemVideo": {
+    "message": "วิดีโอ $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF แอนิเมชัน $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "มีเดีย $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "ไม่ได้รับการตอบกลับจากการดาวน์โหลด"
+  },
+  "downloadFailed": {
+    "message": "การดาวน์โหลดล้มเหลว"
+  },
+  "unknownDownloadError": {
+    "message": "ข้อผิดพลาดการดาวน์โหลดที่ไม่ทราบสาเหตุ"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ไม่ได้ส่งคืนรหัสดาวน์โหลด"
+  },
+  "offscreenNoResponse": {
+    "message": "ไม่ได้รับการตอบกลับจากเอกสาร offscreen"
+  },
+  "unsupportedRequestType": {
+    "message": "ประเภทคำขอที่ไม่รองรับ: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "ข้อมูลคำขอไม่ถูกต้องสำหรับ $ACTION$",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "ข้อผิดพลาด ZIP ที่ไม่ทราบสาเหตุ"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ ขณะดึงมีเดีย",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "ไม่สามารถดึงมีเดียสำหรับไฟล์ ZIP ได้"
+  },
+  "unknownFetchFailure": {
+    "message": "การดึงข้อมูลล้มเหลวที่ไม่ทราบสาเหตุ"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "ไม่สามารถรวม $COUNT$ รายการใน ZIP ได้",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

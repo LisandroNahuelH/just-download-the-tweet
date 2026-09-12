@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Lataa Twiitti Suoraan Premium11: Tallenna Video, GIF Ja Kuvat X:Stä"
+  },
+  "extensionDescription": {
+    "message": "Lisää latausohjaimet median sisältäviin julkaisuihin X:ssä."
+  },
+  "postMediaTitle": {
+    "message": "Julkaisun media"
+  },
+  "downloadAll": {
+    "message": "Lataa kaikki"
+  },
+  "downloadZip": {
+    "message": "Lataa ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Selvitetään mediaa..."
+  },
+  "downloadComplete": {
+    "message": "Lataus valmis."
+  },
+  "zipReady": {
+    "message": "ZIP valmis."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Julkaisun mediaa ei voitu selvittää."
+  },
+  "selectOneOfMedias": {
+    "message": "Valitse yksi $COUNT$ mediakohteesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Julkaisun latausasetukset"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Lataa julkaisun media"
+  },
+  "itemVideo": {
+    "message": "Videotiedosto $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "Animoitu GIF $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Mediatiedosto $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Latausvastausta ei palautettu."
+  },
+  "downloadFailed": {
+    "message": "Lataus epäonnistui."
+  },
+  "unknownDownloadError": {
+    "message": "Tuntematon latausvirhe"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome ei palauttanut lataustunnusta."
+  },
+  "offscreenNoResponse": {
+    "message": "Offscreen-dokumentti ei palauttanut vastausta."
+  },
+  "unsupportedRequestType": {
+    "message": "Tuettamaton pyyntötyyppi: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Virheellinen pyynnön sisältö toiminnolle $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Tuntematon ZIP-virhe"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ median haussa",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Mediaa ei voitu hakea ZIP-arkistoon."
+  },
+  "unknownFetchFailure": {
+    "message": "Tuntematon hakuvirhe"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "$COUNT$ kohdetta ei voitu sisällyttää ZIP-tiedostoon.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}

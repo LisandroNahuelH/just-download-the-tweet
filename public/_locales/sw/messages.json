@@ -1,0 +1,131 @@
+{
+  "extensionName": {
+    "message": "Pakua Tweet Moja Kwa Moja Premium11: Hifadhi Video, GIF Na Picha Kutoka X"
+  },
+  "extensionDescription": {
+    "message": "Huongeza vidhibiti vya upakuaji kwenye machapisho ya media kwenye X."
+  },
+  "postMediaTitle": {
+    "message": "Media ya chapisho"
+  },
+  "downloadAll": {
+    "message": "Pakua zote"
+  },
+  "downloadZip": {
+    "message": "Pakua ZIP"
+  },
+  "resolvingMedia": {
+    "message": "Inatambua media..."
+  },
+  "downloadComplete": {
+    "message": "Upakuaji umekamilika."
+  },
+  "zipReady": {
+    "message": "ZIP iko tayari."
+  },
+  "couldNotResolvePostMedia": {
+    "message": "Haikuweza kutambua media ya chapisho."
+  },
+  "selectOneOfMedias": {
+    "message": "Chagua moja kati ya vipengele $COUNT$ vya media.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "downloadOptionsTitle": {
+    "message": "Chaguo za upakuaji wa chapisho"
+  },
+  "downloadPostMediaTitle": {
+    "message": "Pakua media ya chapisho"
+  },
+  "itemVideo": {
+    "message": "Faili la video $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemGif": {
+    "message": "GIF iliyo hai $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "itemMedia": {
+    "message": "Faili la media $INDEX$ ·",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "noDownloadResponse": {
+    "message": "Hakuna jibu la upakuaji lililorudishwa."
+  },
+  "downloadFailed": {
+    "message": "Upakuaji umeshindwa."
+  },
+  "unknownDownloadError": {
+    "message": "Hitilafu isiyojulikana ya upakuaji"
+  },
+  "chromeNoDownloadId": {
+    "message": "Chrome haikurudisha kitambulisho cha upakuaji."
+  },
+  "offscreenNoResponse": {
+    "message": "Hakuna jibu lililorudishwa na hati ya offscreen."
+  },
+  "unsupportedRequestType": {
+    "message": "Aina ya ombi haitumiki: $TYPE$",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "UNKNOWN"
+      }
+    }
+  },
+  "malformedRequestPayload": {
+    "message": "Mzigo wa ombi ulio na kasoro kwa $ACTION$.",
+    "placeholders": {
+      "action": {
+        "content": "$1",
+        "example": "DOWNLOAD_ONE"
+      }
+    }
+  },
+  "unknownZipError": {
+    "message": "Hitilafu isiyojulikana ya ZIP"
+  },
+  "httpFetchError": {
+    "message": "HTTP $STATUS$ wakati wa kupata media",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "404"
+      }
+    }
+  },
+  "zipNoMediaFetched": {
+    "message": "Hakuna media iliyoweza kupatikana kwa kumbukumbu ya ZIP."
+  },
+  "unknownFetchFailure": {
+    "message": "Hitilafu isiyojulikana ya upatikanaji"
+  },
+  "zipItemsSkippedWarning": {
+    "message": "Vipengele $COUNT$ haviwezi kujumuishwa kwenye ZIP.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  }
+}
