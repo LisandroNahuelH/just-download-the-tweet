@@ -1,0 +1,497 @@
+[
+  {
+    "code": "ar",
+    "displayName": "Árabe",
+    "runtimeFolder": "ar",
+    "rtl": true,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "am",
+    "displayName": "Amhárico",
+    "runtimeFolder": "am",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "bg",
+    "displayName": "Búlgaro",
+    "runtimeFolder": "bg",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "bn",
+    "displayName": "Bengalí",
+    "runtimeFolder": "bn",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ca",
+    "displayName": "Catalán",
+    "runtimeFolder": "ca",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "cs",
+    "displayName": "Checo",
+    "runtimeFolder": "cs",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "da",
+    "displayName": "Danés",
+    "runtimeFolder": "da",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "de",
+    "displayName": "Alemán",
+    "runtimeFolder": "de",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "el",
+    "displayName": "Griego",
+    "runtimeFolder": "el",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "en",
+    "displayName": "Inglés",
+    "runtimeFolder": "en",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "en_AU",
+    "displayName": "Inglés (Australia)",
+    "runtimeFolder": "en",
+    "rtl": false,
+    "runtimeStatus": "alias",
+    "storeStatus": "pending",
+    "qaStatus": "alias"
+  },
+  {
+    "code": "en_GB",
+    "displayName": "Inglés (Reino Unido)",
+    "runtimeFolder": "en",
+    "rtl": false,
+    "runtimeStatus": "alias",
+    "storeStatus": "pending",
+    "qaStatus": "alias"
+  },
+  {
+    "code": "en_US",
+    "displayName": "Inglés (EE.UU.)",
+    "runtimeFolder": "en",
+    "rtl": false,
+    "runtimeStatus": "alias",
+    "storeStatus": "pending",
+    "qaStatus": "alias"
+  },
+  {
+    "code": "es",
+    "displayName": "Español",
+    "runtimeFolder": "es",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "es_419",
+    "displayName": "Español (Latinoamérica y Caribe)",
+    "runtimeFolder": "es",
+    "rtl": false,
+    "runtimeStatus": "alias",
+    "storeStatus": "pending",
+    "qaStatus": "alias"
+  },
+  {
+    "code": "et",
+    "displayName": "Estonio",
+    "runtimeFolder": "et",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "fa",
+    "displayName": "Persa",
+    "runtimeFolder": "fa",
+    "rtl": true,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "fi",
+    "displayName": "Finlandés",
+    "runtimeFolder": "fi",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "fil",
+    "displayName": "Filipino",
+    "runtimeFolder": "fil",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "fr",
+    "displayName": "Francés",
+    "runtimeFolder": "fr",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "gu",
+    "displayName": "Gujarati",
+    "runtimeFolder": "gu",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "he",
+    "displayName": "Hebreo",
+    "runtimeFolder": "he",
+    "rtl": true,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "hi",
+    "displayName": "Hindi",
+    "runtimeFolder": "hi",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "hr",
+    "displayName": "Croata",
+    "runtimeFolder": "hr",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "hu",
+    "displayName": "Húngaro",
+    "runtimeFolder": "hu",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "id",
+    "displayName": "Indonesio",
+    "runtimeFolder": "id",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "it",
+    "displayName": "Italiano",
+    "runtimeFolder": "it",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ja",
+    "displayName": "Japonés",
+    "runtimeFolder": "ja",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "kn",
+    "displayName": "Kannada",
+    "runtimeFolder": "kn",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ko",
+    "displayName": "Coreano",
+    "runtimeFolder": "ko",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "lt",
+    "displayName": "Lituano",
+    "runtimeFolder": "lt",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "lv",
+    "displayName": "Letón",
+    "runtimeFolder": "lv",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ml",
+    "displayName": "Malayalam",
+    "runtimeFolder": "ml",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "mr",
+    "displayName": "Marathi",
+    "runtimeFolder": "mr",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ms",
+    "displayName": "Malayo",
+    "runtimeFolder": "ms",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "nl",
+    "displayName": "Neerlandés",
+    "runtimeFolder": "nl",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "no",
+    "displayName": "Noruego",
+    "runtimeFolder": "no",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "pl",
+    "displayName": "Polaco",
+    "runtimeFolder": "pl",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "pt_BR",
+    "displayName": "Portugués (Brasil)",
+    "runtimeFolder": "pt_BR",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "pt_PT",
+    "displayName": "Portugués (Portugal)",
+    "runtimeFolder": "pt_PT",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ro",
+    "displayName": "Rumano",
+    "runtimeFolder": "ro",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ru",
+    "displayName": "Ruso",
+    "runtimeFolder": "ru",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "sk",
+    "displayName": "Eslovaco",
+    "runtimeFolder": "sk",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "sl",
+    "displayName": "Esloveno",
+    "runtimeFolder": "sl",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "sr",
+    "displayName": "Serbio",
+    "runtimeFolder": "sr",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "sv",
+    "displayName": "Sueco",
+    "runtimeFolder": "sv",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "sw",
+    "displayName": "Suajili",
+    "runtimeFolder": "sw",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "ta",
+    "displayName": "Tamil",
+    "runtimeFolder": "ta",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "te",
+    "displayName": "Telugu",
+    "runtimeFolder": "te",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "th",
+    "displayName": "Tailandés",
+    "runtimeFolder": "th",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "tr",
+    "displayName": "Turco",
+    "runtimeFolder": "tr",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "uk",
+    "displayName": "Ucraniano",
+    "runtimeFolder": "uk",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "vi",
+    "displayName": "Vietnamita",
+    "runtimeFolder": "vi",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "zh_CN",
+    "displayName": "Chino (China)",
+    "runtimeFolder": "zh_CN",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  },
+  {
+    "code": "zh_TW",
+    "displayName": "Chino (Taiwán)",
+    "runtimeFolder": "zh_TW",
+    "rtl": false,
+    "runtimeStatus": "active",
+    "storeStatus": "pending",
+    "qaStatus": "generated"
+  }
+]

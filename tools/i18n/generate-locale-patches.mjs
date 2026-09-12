@@ -1,0 +1,180 @@
+import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
+const localesRoot = resolve(repoRoot, "public/_locales");
+const englishCatalog = JSON.parse(
+  readFileSync(resolve(localesRoot, "en/messages.json"), "utf8")
+);
+
+const INDEX = "$INDEX$";
+
+const LABEL_OVERRIDES = {
+  am: { itemGif: `ተንቀሳቃሽ GIF ${INDEX} ·` },
+  ar: { itemGif: `صورة GIF ${INDEX} ·` },
+  bg: { itemGif: `Анимиран GIF ${INDEX} ·` },
+  bn: { itemGif: `অ্যানিমেটেড GIF ${INDEX} ·` },
+  ca: { itemGif: `GIF animat ${INDEX} ·` },
+  cs: {
+    itemVideo: `Videosoubor ${INDEX} ·`,
+    itemGif: `Animované GIF ${INDEX} ·`
+  },
+  da: {
+    itemVideo: `Video nr. ${INDEX} ·`,
+    itemGif: `Animeret GIF ${INDEX} ·`,
+    downloadZip: "Download som ZIP"
+  },
+  de: {
+    itemVideo: `Video Nr. ${INDEX} ·`,
+    itemGif: `Animiertes GIF ${INDEX} ·`
+  },
+  el: { itemGif: `Κινούμενο GIF ${INDEX} ·` },
+  es: {
+    itemVideo: `Vídeo ${INDEX} ·`,
+    itemGif: `GIF animado ${INDEX} ·`,
+    itemMedia: `Multimedia ${INDEX} ·`
+  },
+  et: {
+    itemVideo: `Video nr ${INDEX} ·`,
+    itemGif: `Animeeritud GIF ${INDEX} ·`
+  },
+  fa: { itemGif: `تصویر GIF ${INDEX} ·` },
+  fi: {
+    itemVideo: `Videotiedosto ${INDEX} ·`,
+    itemGif: `Animoitu GIF ${INDEX} ·`,
+    itemMedia: `Mediatiedosto ${INDEX} ·`
+  },
+  fil: {
+    itemVideo: `Bidyo ${INDEX} ·`,
+    itemGif: `Animated GIF ${INDEX} ·`,
+    itemMedia: `Media file ${INDEX} ·`
+  },
+  fr: { itemGif: `Image GIF ${INDEX} ·` },
+  gu: { itemGif: `એનિમેટેડ GIF ${INDEX} ·` },
+  he: { itemGif: `תמונת GIF ${INDEX} ·` },
+  hi: { itemGif: `एनिमेटेड GIF ${INDEX} ·` },
+  hr: {
+    itemVideo: `Videozapis ${INDEX} ·`,
+    itemGif: `Animirani GIF ${INDEX} ·`
+  },
+  hu: { itemGif: `Animált GIF ${INDEX} ·` },
+  id: {
+    itemVideo: `Berkas video ${INDEX} ·`,
+    itemGif: `GIF animasi ${INDEX} ·`,
+    itemMedia: `Berkas media ${INDEX} ·`
+  },
+  it: {
+    itemVideo: `File video ${INDEX} ·`,
+    itemGif: `GIF animato ${INDEX} ·`,
+    itemMedia: `File multimediale ${INDEX} ·`
+  },
+  ja: { itemGif: `GIF画像 ${INDEX} ·` },
+  kn: { itemGif: `ಅನಿಮೇಟೆಡ್ GIF ${INDEX} ·` },
+  ko: { itemGif: `GIF 이미지 ${INDEX} ·` },
+  lt: { itemGif: `Animuotas GIF ${INDEX} ·` },
+  lv: {
+    itemVideo: `Videoieraksts ${INDEX} ·`,
+    itemGif: `Animēts GIF ${INDEX} ·`
+  },
+  ml: { itemGif: `ആനിമേറ്റഡ് GIF ${INDEX} ·` },
+  mr: { itemGif: `ॲनिमेटेड GIF ${INDEX} ·` },
+  ms: {
+    itemVideo: `Fail video ${INDEX} ·`,
+    itemGif: `GIF animasi ${INDEX} ·`,
+    itemMedia: `Fail media ${INDEX} ·`
+  },
+  nl: {
+    itemVideo: `Videobestand ${INDEX} ·`,
+    itemGif: `Geanimeerde GIF ${INDEX} ·`,
+    itemMedia: `Mediabestand ${INDEX} ·`
+  },
+  no: {
+    itemVideo: `Videofil ${INDEX} ·`,
+    itemGif: `Animert GIF ${INDEX} ·`,
+    itemMedia: `Mediefil ${INDEX} ·`
+  },
+  pl: { itemGif: `Animowany GIF ${INDEX} ·` },
+  pt_BR: { itemGif: `GIF animado ${INDEX} ·` },
+  pt_PT: { itemGif: `GIF animado ${INDEX} ·` },
+  ro: {
+    itemVideo: `Fișier video ${INDEX} ·`,
+    itemGif: `GIF animat ${INDEX} ·`,
+    itemMedia: `Fișier media ${INDEX} ·`
+  },
+  ru: { itemGif: `GIF-изображение ${INDEX} ·` },
+  sk: {
+    itemVideo: `Videosúbor ${INDEX} ·`,
+    itemGif: `Animované GIF ${INDEX} ·`
+  },
+  sl: {
+    itemVideo: `Videoposnetek ${INDEX} ·`,
+    itemGif: `Animiran GIF ${INDEX} ·`
+  },
+  sr: {
+    itemVideo: `Video zapis ${INDEX} ·`,
+    itemGif: `Animirani GIF ${INDEX} ·`
+  },
+  sv: {
+    itemVideo: `Videofil ${INDEX} ·`,
+    itemGif: `Animerad GIF ${INDEX} ·`,
+    itemMedia: `Mediafil ${INDEX} ·`
+  },
+  sw: {
+    itemVideo: `Faili la video ${INDEX} ·`,
+    itemGif: `GIF iliyo hai ${INDEX} ·`,
+    itemMedia: `Faili la media ${INDEX} ·`
+  },
+  ta: { itemGif: `அனிமேஷன் GIF ${INDEX} ·` },
+  te: { itemGif: `యానిమేటెడ్ GIF ${INDEX} ·` },
+  th: { itemGif: `GIF แอนิเมชัน ${INDEX} ·` },
+  tr: {
+    itemVideo: `Video dosyası ${INDEX} ·`,
+    itemGif: `Hareketli GIF ${INDEX} ·`
+  },
+  uk: { itemGif: `Зображення GIF ${INDEX} ·` },
+  vi: {
+    itemVideo: `Tệp video ${INDEX} ·`,
+    itemGif: `Ảnh GIF ${INDEX} ·`,
+    itemMedia: `Tệp media ${INDEX} ·`
+  },
+  zh_CN: { itemGif: `GIF动图 ${INDEX} ·` },
+  zh_TW: { itemGif: `GIF動圖 ${INDEX} ·` }
+};
+
+const patches = {};
+
+for (const locale of readdirSync(localesRoot).filter((entry) => !entry.includes(".")).sort()) {
+  if (locale === "en") {
+    continue;
+  }
+
+  const catalog = JSON.parse(
+    readFileSync(resolve(localesRoot, locale, "messages.json"), "utf8")
+  );
+  const overrides = LABEL_OVERRIDES[locale] ?? {};
+  const localePatches = {};
+
+  for (const key of ["itemVideo", "itemGif", "itemMedia", "downloadZip"]) {
+    if (catalog[key]?.message !== englishCatalog[key]?.message) {
+      continue;
+    }
+
+    if (overrides[key]) {
+      localePatches[key] = overrides[key];
+      continue;
+    }
+
+    if (key === "itemGif") {
+      localePatches[key] = `Animated GIF ${INDEX} ·`;
+    }
+  }
+
+  if (Object.keys(localePatches).length > 0) {
+    patches[locale] = localePatches;
+  }
+}
+
+const outputPath = resolve(dirname(fileURLToPath(import.meta.url)), "locale-patches.json");
+writeFileSync(outputPath, `${JSON.stringify(patches, null, 2)}\n`, "utf8");
+console.log(`Generated locale patches for ${Object.keys(patches).length} locale(s).`);
